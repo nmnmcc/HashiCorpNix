@@ -5,23 +5,34 @@ on:
     - cron: "0 */6 * * *"
   workflow_dispatch:
 
+concurrency:
+  group: update-versions
+  cancel-in-progress: true
+
 permissions:
   contents: write
 
 jobs:
   update:
     runs-on: ubuntu-latest
+    timeout-minutes: 120
     steps:
       - uses: actions/checkout@v4
+
+      - name: Check dependencies
+        run: |
+          for cmd in curl jq xxd base64 xargs comm; do
+            command -v "$cmd" >/dev/null || { echo "::error::Missing: $cmd"; exit 1; }
+          done
 
       - name: Update versions
         run: bash update.sh
 
       - name: Commit and push
         run: |
-          git diff --quiet versions.json 2>/dev/null && { echo "No changes"; exit 0; }
+          git add versions.json
+          git diff --cached --quiet && { echo "No changes"; exit 0; }
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add versions.json
           git commit -m "chore: update versions $(date -u +%F)"
           git push

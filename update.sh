@@ -75,7 +75,7 @@ echo "Fetched: $fetched"
 echo "Merging ..."
 {
   cat "$tmpdir/base.json"
-  cat "$tmpdir"/entries/*.json 2>/dev/null || true
+  find "$tmpdir/entries" -name '*.json' -exec cat {} +
 } | jq -S -s '
   .[0] as $base |
   reduce .[1:][] as $e ($base;
