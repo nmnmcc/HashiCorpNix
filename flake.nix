@@ -26,7 +26,10 @@
       splitVer = v: builtins.filter builtins.isString (builtins.split "\\." v);
 
       latestOf = vers:
-        builtins.head (builtins.sort (a: b: builtins.compareVersions a b > 0) vers);
+        builtins.foldl'
+          (a: b: if builtins.compareVersions a b >= 0 then a else b)
+          (builtins.head vers)
+          (builtins.tail vers);
 
       mkPackage = pkgs: pname: version: shas:
         let
@@ -58,46 +61,59 @@
       mkAllPackages = pkgs:
         let
           lib = nixpkgs.lib;
+          platform = platformOf.${pkgs.stdenv.hostPlatform.system};
 
-          productPackages = product: info:
+          productPairs = product: info:
             let
               vs = info.versions or {};
-              allVers = builtins.attrNames vs;
+              allVers = builtins.filter
+                (ver: builtins.hasAttr platform vs.${ver})
+                (builtins.attrNames vs);
               mk = ver: mkPackage pkgs product ver vs.${ver};
 
-              # terraform_1_15_6 — exact
-              exact = builtins.listToAttrs (map (ver: {
-                name = "${product}_${builtins.concatStringsSep "_" (splitVer ver)}";
-                value = mk ver;
+              # splitVer per version, computed once via lazy attrset
+              parts = builtins.listToAttrs (map (ver: {
+                name = ver;
+                value = splitVer ver;
               }) allVers);
 
+              # terraform_1_15_6 — exact
+              exact = map (ver: {
+                name = "${product}_${builtins.concatStringsSep "_" parts.${ver}}";
+                value = mk ver;
+              }) allVers;
+
               # terraform_1_15 — latest patch within minor
-              minorPkgs = lib.mapAttrs' (slug: vers:
-                lib.nameValuePair "${product}_${slug}" (mk (latestOf vers))
-              ) (lib.groupBy (v:
-                let p = splitVer v;
+              minorPairs = lib.mapAttrsToList (slug: vers: {
+                name = "${product}_${slug}";
+                value = mk (latestOf vers);
+              }) (lib.groupBy (ver:
+                let p = parts.${ver};
                 in "${builtins.elemAt p 0}_${builtins.elemAt p 1}"
               ) allVers);
 
               # terraform_1 — latest within major
-              majorPkgs = lib.mapAttrs' (slug: vers:
-                lib.nameValuePair "${product}_${slug}" (mk (latestOf vers))
-              ) (lib.groupBy (v: builtins.elemAt (splitVer v) 0) allVers);
+              majorPairs = lib.mapAttrsToList (slug: vers: {
+                name = "${product}_${slug}";
+                value = mk (latestOf vers);
+              }) (lib.groupBy (ver:
+                builtins.elemAt parts.${ver} 0
+              ) allVers);
 
-              # terraform — overall latest
-              latest =
-                if info ? latest && builtins.hasAttr info.latest vs
-                then { ${product} = mk info.latest; }
-                else {};
+              # terraform — overall latest (best version with this platform)
+              latestPair =
+                if allVers != []
+                then [{ name = product; value = mk (latestOf allVers); }]
+                else [];
 
-            in exact // minorPkgs // majorPkgs // latest;
+            in exact ++ minorPairs ++ majorPairs ++ latestPair;
 
         in
-        lib.filterAttrs (_: v: v != null)
-          (builtins.foldl'
-            (acc: name: acc // productPackages name versions.${name})
-            {}
-            (builtins.attrNames versions));
+        builtins.listToAttrs (
+          builtins.concatMap
+            (product: productPairs product versions.${product})
+            (builtins.attrNames versions)
+        );
 
     in
     {
