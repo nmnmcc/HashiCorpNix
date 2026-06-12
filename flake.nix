@@ -46,6 +46,7 @@
           dontBuild = true;
           installPhase = "install -D -m0755 ${pname} $out/bin/${pname}";
           dontPatchShebangs = true;
+          dontStrip = true;
           meta = with pkgs.lib; {
             homepage = "https://releases.hashicorp.com/${pname}";
             description = "HashiCorp ${pname} ${version} (pre-built binary)";
