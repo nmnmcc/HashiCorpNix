@@ -9,7 +9,7 @@ nixpkgs 从源码构建 HashiCorp 工具（BSL 许可，无二进制缓存），
 ## 包含内容
 
 releases.hashicorp.com 上所有提供 `.zip` 二进制的产品，涵盖全部已发布的
-稳定版本。当前追踪 **268 个产品**、**12,964 个版本**。
+稳定版本。
 
 核心工具包括 `terraform`、`vault`、`consul`、`nomad`、`packer`、
 `boundary`、`waypoint`、`vagrant`、`sentinel`、`consul-template`、

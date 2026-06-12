@@ -12,8 +12,7 @@ installs.
 ## What you get
 
 Every product on releases.hashicorp.com that ships a `.zip` binary for
-Linux or macOS, across all released stable versions. Currently tracking
-**268 products** and **12,964 versions**.
+Linux or macOS, across all released stable versions.
 
 Core tools include `terraform`, `vault`, `consul`, `nomad`, `packer`,
 `boundary`, `waypoint`, `vagrant`, `sentinel`, `consul-template`,
