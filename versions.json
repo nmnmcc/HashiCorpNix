@@ -41245,6 +41245,10 @@
   "terraform-provider-kubernetes": {
     "latest": "3.2.0",
     "versions": {
+      "0.1.0": {
+        "darwin_amd64": "sha256-BV9rW2b9f0aTzDpysRKtvwn/ythpDHqf8IAUzFKh904=",
+        "linux_amd64": "sha256-vd9dTKe7R48FmEE2gl0e01PD5TFFyfgZnSXNGE8puk4="
+      },
       "0.1.1": {
         "darwin_amd64": "sha256-RhwnBCu7I3KOiWKezaF2wTVD3hRB09hdFIyr3fjvdW0=",
         "linux_amd64": "sha256-j4gwS6GIBoey0koEZCR8NctfY129oP0d6AP5n04zygw="
