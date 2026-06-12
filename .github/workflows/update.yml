@@ -19,14 +19,8 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Check dependencies
-        run: |
-          for cmd in curl jq xxd base64 xargs comm; do
-            command -v "$cmd" >/dev/null || { echo "::error::Missing: $cmd"; exit 1; }
-          done
-
       - name: Update versions
-        run: bash update.sh
+        run: python3 update.py
 
       - name: Commit and push
         run: |
