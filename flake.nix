@@ -124,5 +124,9 @@
       overlays.default = final: _prev: {
         hashicorp = mkAllPackages final;
       };
+
+      overlays.override = _final: prev:
+        let all = mkAllPackages prev;
+        in { hashicorp = all; } // (builtins.intersectAttrs prev all);
     };
 }

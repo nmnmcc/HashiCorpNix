@@ -68,7 +68,16 @@ Add as a flake input:
 
 ## Using the overlay
 
-The overlay places all packages under `pkgs.hashicorp`:
+Two overlays are provided:
+
+| Overlay | Effect |
+| --- | --- |
+| `overlays.default` | Adds `pkgs.hashicorp.*` — no existing packages are touched |
+| `overlays.override` | Same as default, plus replaces top-level `pkgs.*` names that match (e.g. `pkgs.terraform`, `pkgs.vault`) |
+
+### `overlays.default` — namespaced
+
+All packages live under `pkgs.hashicorp`, nothing in nixpkgs is changed:
 
 ```nix
 {
@@ -81,6 +90,28 @@ The overlay places all packages under `pkgs.hashicorp`:
     vault
     consul
     nomad_2
+  ];
+}
+```
+
+### `overlays.override` — replace nixpkgs packages
+
+Packages that share a name with an existing nixpkgs attribute are replaced
+at the top level. NixOS options like `services.vault.package` will
+automatically use the binary from this flake:
+
+```nix
+{
+  nixpkgs.overlays = [
+    hashicorp.overlays.override
+  ];
+
+  # pkgs.terraform, pkgs.vault, etc. now come from this flake
+  environment.systemPackages = with pkgs; [
+    terraform
+    vault
+    consul
+    nomad
   ];
 }
 ```

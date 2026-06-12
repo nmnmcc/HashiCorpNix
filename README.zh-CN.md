@@ -65,7 +65,16 @@ nix run github:nmnmcc/HashiCorpNix#consul_1 -- version
 
 ## 使用 overlay
 
-overlay 将所有包放在 `pkgs.hashicorp` 命名空间下：
+提供两个 overlay：
+
+| Overlay | 效果 |
+| --- | --- |
+| `overlays.default` | 添加 `pkgs.hashicorp.*`——不改动现有包 |
+| `overlays.override` | 同上，并替换 nixpkgs 中同名的顶层包（如 `pkgs.terraform`、`pkgs.vault`） |
+
+### `overlays.default`——命名空间模式
+
+所有包在 `pkgs.hashicorp` 下，nixpkgs 中的包不受影响：
 
 ```nix
 {
@@ -78,6 +87,27 @@ overlay 将所有包放在 `pkgs.hashicorp` 命名空间下：
     vault
     consul
     nomad_2
+  ];
+}
+```
+
+### `overlays.override`——替换 nixpkgs 包
+
+与 nixpkgs 中同名的包会被替换到顶层。NixOS 选项如
+`services.vault.package` 将自动使用本 flake 的二进制：
+
+```nix
+{
+  nixpkgs.overlays = [
+    hashicorp.overlays.override
+  ];
+
+  # pkgs.terraform、pkgs.vault 等现在来自本 flake
+  environment.systemPackages = with pkgs; [
+    terraform
+    vault
+    consul
+    nomad
   ];
 }
 ```
