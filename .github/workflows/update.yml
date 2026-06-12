@@ -19,12 +19,17 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - uses: cachix/install-nix-action@v31
+
       - name: Update versions
         run: python3 update.py
 
+      - name: Update flake.lock
+        run: nix flake update
+
       - name: Commit and push
         run: |
-          git add versions.json
+          git add versions.json flake.lock
           git diff --cached --quiet && { echo "No changes"; exit 0; }
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
