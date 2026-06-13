@@ -65714,6 +65714,17 @@
       }
     }
   },
+  "tfctl": {
+    "latest": "0.2.0",
+    "versions": {
+      "0.2.0": {
+        "darwin_amd64": "sha256-9LgoSdFd07fO+UycRA0f2txtZOClawob8rw8JH5nSos=",
+        "darwin_arm64": "sha256-cPeB+McY8CiejubFy6VaVuVDcRg3ldEneUiEnjj4WWU=",
+        "linux_amd64": "sha256-7X3WxJrJBvMYD58cS6RA8Z5mL6xlCPTngmF3K2iBeO0=",
+        "linux_arm64": "sha256-nkVpR6E2PI2tlkaV04rzssbaGrK1Y0CwTRSAuCVAq34="
+      }
+    }
+  },
   "tfstacks": {
     "latest": "1.2.1",
     "versions": {
