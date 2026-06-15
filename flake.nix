@@ -43,12 +43,12 @@
             url = "https://releases.hashicorp.com/${pname}/${version}/${pname}_${version}_${platform}.zip";
             inherit hash;
           };
-          nativeBuildInputs = [ pkgs.unzip ];
+          nativeBuildInputs = [ pkgs.unzip pkgs.autoPatchelfHook ];
+          buildInputs = [ pkgs.stdenv.cc.cc.lib ];
           sourceRoot = ".";
           unpackPhase = "unzip $src";
           dontBuild = true;
           installPhase = "install -D -m0755 ${pname} $out/bin/${pname}";
-          dontPatchShebangs = true;
           dontStrip = true;
           meta = with pkgs.lib; {
             homepage = "https://releases.hashicorp.com/${pname}";
