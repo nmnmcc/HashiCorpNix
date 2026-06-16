@@ -8954,7 +8954,7 @@
     }
   },
   "packer-plugin-ansible": {
-    "latest": "1.1.4",
+    "latest": "1.1.5",
     "versions": {
       "0.0.1": {
         "darwin_amd64": "sha256-eIbQ7p31LhlpaO9r8GyGyaU+skmOXysUAJL9AKELWO8=",
@@ -9033,6 +9033,12 @@
         "darwin_arm64": "sha256-ekRfZV3tlsJop/Wd1KiOa3WE8hYb4HU4M9LKJnuMsuw=",
         "linux_amd64": "sha256-iQgez3MuCufQuVeTqbBvq4iQ4zoRAUYz1C03V3q+xEw=",
         "linux_arm64": "sha256-uWMYWyBY3vz63Hwpp0Ozp6xUgraDdE4iV8iQ6qjuAJY="
+      },
+      "1.1.5": {
+        "darwin_amd64": "sha256-U2thOf9tTMZL3gmrMTd50wQuPcpL0oxOrF+30ITU4Bk=",
+        "darwin_arm64": "sha256-mXV0/inGT+p42rdu4/AfBLtdc4Qn+QISi5TR4SFPRPg=",
+        "linux_amd64": "sha256-gXeN3WTn+Iax6he0e6OKlGcWBHzmQ3v2N6bljcjrsC0=",
+        "linux_arm64": "sha256-KEQq6dfIm/M4VpLkK7XpuCqoVUHmJXiA7rIpY78T2YU="
       }
     }
   },
