@@ -13568,7 +13568,7 @@
     }
   },
   "terraform-provider-alicloud": {
-    "latest": "1.281.0",
+    "latest": "1.282.0",
     "versions": {
       "0.1.0": {
         "darwin_amd64": "sha256-gPF+kTwaY0XFLOg6/WH0ayfNB7cfYDoGSyTJKpivLtM=",
@@ -14956,6 +14956,12 @@
         "darwin_arm64": "sha256-VnuVsd+9X5tt6GS6Bo/yolwrHNRlXf7eO2qufGG7Urg=",
         "linux_amd64": "sha256-RMfsYeXt3kQZIAph2QBw5zArIzbCv4YbblhoLKAbLzw=",
         "linux_arm64": "sha256-60rE2u3kkecE3AJiNe7WFuTqyZkHtCepdUnls4zFCWg="
+      },
+      "1.282.0": {
+        "darwin_amd64": "sha256-/2CMVSCznoC8zoI5teiY1ADEffhmJz9PeSg1eojrLu4=",
+        "darwin_arm64": "sha256-4pe9nqcpPfWoE9OBHQge3/cNWyqOoLoVF6JcAy9Fcac=",
+        "linux_amd64": "sha256-dc0TjylgInHXm0kA+DvV3vTywW6+Gf3Ze9BDm3SQGAc=",
+        "linux_arm64": "sha256-Eq7wnwBYDWqOIZNFzH7SldW4+lbEF1U9z+SA/WFR4Rw="
       },
       "1.29.0": {
         "darwin_amd64": "sha256-9WNeKRaJhwsmzf9PngiBIYBDO9N8jK9HmtA/t5hWwyI=",
