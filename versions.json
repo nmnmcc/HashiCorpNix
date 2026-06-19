@@ -69862,7 +69862,7 @@
     }
   },
   "vault-radar": {
-    "latest": "0.49.0",
+    "latest": "0.50.0",
     "versions": {
       "0.11.0": {
         "darwin_amd64": "sha256-Y9auTz+m2RfmZ+MIZwtVDSQRF2o1jFRSR6lkdAIJxLk=",
@@ -70109,6 +70109,12 @@
         "darwin_arm64": "sha256-vPcXtljiY9fYT6aywOrXpLCa1Pso04uaOvOZGwxUqos=",
         "linux_amd64": "sha256-cCqRHgSyc2A6pDjVnxDEBIoCYpCyMBkw/vXNaLRmIVg=",
         "linux_arm64": "sha256-BOiB+rL8NSj/2uayKY4sfNQUH0lUNLTMILjjbF+1pv8="
+      },
+      "0.50.0": {
+        "darwin_amd64": "sha256-DeV6g3HoT4cxHeRZ3lQYpYuD9hDDbP0UxUlHMiNmDgY=",
+        "darwin_arm64": "sha256-RU0TTddGg2fA5NuvKfjlVOhkSpe+On6uyIa2EWY1bho=",
+        "linux_amd64": "sha256-lTqY7AQaz5theVvAosXL/HbVfykJMc1HtymFcpoG0Dg=",
+        "linux_arm64": "sha256-sZSC4vLKZcMxdkTWe1lOWOLkJnGWlLvtojcr82kyM4U="
       }
     }
   },
