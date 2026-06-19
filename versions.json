@@ -615,7 +615,7 @@
     }
   },
   "consul": {
-    "latest": "2.0.0",
+    "latest": "2.0.1",
     "versions": {
       "0.1.0": {
         "darwin_amd64": "sha256-fPhlu8Ov5LzC3ROhfsWQkqKAc1jlVlrayqx+0IREUwo=",
@@ -1830,6 +1830,12 @@
         "darwin_arm64": "sha256-hG8q3LKpMaURTvJA+5XjXr3PkHGR+kIdAfxHs48KQLI=",
         "linux_amd64": "sha256-Jf520yA1Ka9Zg0z/SimhKAULYw1ikBvnrYULmZHd+ZE=",
         "linux_arm64": "sha256-yuqdY0sY7xN7DmKtrF3RRAfNlCCSwsYoG3Dt2QuG1eI="
+      },
+      "2.0.1": {
+        "darwin_amd64": "sha256-5cHPgB3NL1DLD+xD/toD50Un+k4o7gSJC/4+ssoPqqE=",
+        "darwin_arm64": "sha256-q28rqnVret5YszXsmDEv+CNbw9bVIN6cfslb2cihNIU=",
+        "linux_amd64": "sha256-+BiXNrBeP+QtJ92D3706bX5EtWabLlFoQ2LpwWObq+A=",
+        "linux_arm64": "sha256-BqiPKcQI8CpMY4jczzDAWbjYzjd4V2cBYD+7TfwDs2U="
       }
     }
   },
@@ -70101,13 +70107,19 @@
     }
   },
   "vault-radar-mcp-server": {
-    "latest": "0.1.0",
+    "latest": "1.0.0",
     "versions": {
       "0.1.0": {
         "darwin_amd64": "sha256-BikHon63UjIVd4egyit3RUzAItVvsaVAsQDSVDxOLWY=",
         "darwin_arm64": "sha256-S2SXHNOYfkbsnBvMy9ONk4PTcBMM8n3ranGWgTr06LI=",
         "linux_amd64": "sha256-NCyloQk9+PVeXvaqCJSYxZ4QCVLq9MQF5RP9AkjagPk=",
         "linux_arm64": "sha256-BMzOEQdmbjtBdQf+smmsONkWMIpHdSJ+O6zHq15UhHs="
+      },
+      "1.0.0": {
+        "darwin_amd64": "sha256-SuoKpWic33+XInO++WuEzfIKo7jWNsopHB04aZIqLms=",
+        "darwin_arm64": "sha256-Vl5N8d7YfkoCERcRz+cOoO4bvroVLT0XOBeVWmdja+U=",
+        "linux_amd64": "sha256-TVDnC5TRcH9A8ceeWMIJiaWg+0GtnAymNa3JuirSlks=",
+        "linux_arm64": "sha256-dV/JRPfxa05XCTTIV/mIbEDOVYdqREzEZyd7s/Lz3Lg="
       }
     }
   },
