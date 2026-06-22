@@ -62984,7 +62984,7 @@
     }
   },
   "terraform-provider-venafi": {
-    "latest": "0.23.2",
+    "latest": "0.24.0",
     "versions": {
       "0.10.0": {
         "darwin_amd64": "sha256-k/+ydliiHcsbkUlX6aCFXOCY3dU33OulA/zsk5MRv30=",
@@ -63140,6 +63140,11 @@
         "darwin_amd64": "sha256-kLqR1qkYmgaU+gHaqfUW9qJG33b/wykhKGAInfOQTls=",
         "darwin_arm64": "sha256-YU4YKOD3vom9t7eh3+8406ddfIsJupUk0Vb7TIPg0Yw=",
         "linux_amd64": "sha256-dWb0CrIi20lLtCRwULGRNfR20VnoPBZW+bkWPSDJm10="
+      },
+      "0.24.0": {
+        "darwin_amd64": "sha256-G2zVQCJyGqWMC4q7gFUo3a9/nnyEDvNsVs0cPEPFH50=",
+        "darwin_arm64": "sha256-9aWG5rx6jY29Osoh6X1WQkb06iGMxfB+hIaSL1m/UUI=",
+        "linux_amd64": "sha256-Pqe1tFmyVc4Y2WBr1LSswj5ka/HMnj6JAwb/j1tw6Vk="
       },
       "0.8.0": {
         "darwin_amd64": "sha256-kF9oPWcxxL4igc9DvnTVA/KS3+7hKHh02lan3IYgxyk=",
