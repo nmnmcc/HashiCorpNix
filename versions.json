@@ -13679,7 +13679,7 @@
     }
   },
   "terraform-provider-alicloud": {
-    "latest": "1.282.0",
+    "latest": "1.283.0",
     "versions": {
       "0.1.0": {
         "darwin_amd64": "sha256-gPF+kTwaY0XFLOg6/WH0ayfNB7cfYDoGSyTJKpivLtM=",
@@ -15073,6 +15073,12 @@
         "darwin_arm64": "sha256-4pe9nqcpPfWoE9OBHQge3/cNWyqOoLoVF6JcAy9Fcac=",
         "linux_amd64": "sha256-dc0TjylgInHXm0kA+DvV3vTywW6+Gf3Ze9BDm3SQGAc=",
         "linux_arm64": "sha256-Eq7wnwBYDWqOIZNFzH7SldW4+lbEF1U9z+SA/WFR4Rw="
+      },
+      "1.283.0": {
+        "darwin_amd64": "sha256-z+LaqGa0pc6D2odc6NvO6nVQN898ZueYyIR7tu33B1o=",
+        "darwin_arm64": "sha256-iZrM9XsadUY4oN/qGHJ1IWQhejMCqgHDqy/ZrPX1e/I=",
+        "linux_amd64": "sha256-Vf5zmHraNJ39yxG/utprLU3EIZk5oshQ+S8Fn8udCtE=",
+        "linux_arm64": "sha256-AApYKNDBAyG+XWc6a9UD5CQ1l8frtJM91fhyLHoIyTE="
       },
       "1.29.0": {
         "darwin_amd64": "sha256-9WNeKRaJhwsmzf9PngiBIYBDO9N8jK9HmtA/t5hWwyI=",
@@ -67750,7 +67756,7 @@
     }
   },
   "vault-csi-provider": {
-    "latest": "1.7.2",
+    "latest": "1.7.3",
     "versions": {
       "0.4.0": {
         "linux_amd64": "sha256-kTtRKVUGc8fuzg1jgHtZCsvliqVndYbWc73jqcAgp60=",
@@ -67815,6 +67821,10 @@
       "1.7.2": {
         "linux_amd64": "sha256-f2gAgRLhzrwpbcZ1pprYJFClbVxFLYO0X/yJp2h+pQ4=",
         "linux_arm64": "sha256-1D+jB5uZ5AFq9XdN+OwSs31BQk4Aq++1+bu1MRD1Wtk="
+      },
+      "1.7.3": {
+        "linux_amd64": "sha256-zptLpURMZWXl2Pd3Nt0LwY6YPDiphquZbBaahTaqik4=",
+        "linux_arm64": "sha256-+306KNtMt8kxWywICQ8j78BPX+j91PZTjuIwjeeE6kI="
       }
     }
   },
