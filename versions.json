@@ -44255,7 +44255,7 @@
     }
   },
   "terraform-provider-mongodbatlas": {
-    "latest": "2.12.0",
+    "latest": "2.13.0",
     "versions": {
       "0.1.0": {
         "darwin_amd64": "sha256-wQGWK4XXfYu7luuYVs3TuAhvwt4YcqnyT4Ww89WKC3s=",
@@ -44876,6 +44876,12 @@
         "darwin_arm64": "sha256-CFlJ0c4qRt+6Pbd8f5KAkKjdQChzdYnf/xGG+YIfb9Y=",
         "linux_amd64": "sha256-2I2713YytE32W1OZHqhERVWMkx3X6jqHbijXadbfkx0=",
         "linux_arm64": "sha256-biiL24n8bkrDMgDd4G94pmpO95jcG9Ek1f/HpifJs5g="
+      },
+      "2.13.0": {
+        "darwin_amd64": "sha256-TRz2w7HALIeo74bMWZu85yKYKiRcbQWjETqU/TDorBk=",
+        "darwin_arm64": "sha256-P7wNtay1oTsPR6Rml0xjh6dsyBRV4/CIGy7BEj+j6+Y=",
+        "linux_amd64": "sha256-2WeXDo8iv8QDe3li0f+7dADeTz7Tz89Kt6v0fUrB2Jc=",
+        "linux_arm64": "sha256-2Xzmrr+psN3z8aDfTK5YxFZW122Nvv1wYCCAp5Fvc1Q="
       },
       "2.2.0": {
         "darwin_amd64": "sha256-r5fwhf60zQgzTO6I5zqAhLaprkBXRL9/abaQuj4C3iw=",
