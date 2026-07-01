@@ -41518,7 +41518,7 @@
     }
   },
   "terraform-provider-kubernetes": {
-    "latest": "3.2.0",
+    "latest": "3.2.1",
     "versions": {
       "0.1.0": {
         "darwin_amd64": "sha256-BV9rW2b9f0aTzDpysRKtvwn/ythpDHqf8IAUzFKh904=",
@@ -42019,6 +42019,12 @@
         "darwin_arm64": "sha256-LjOswgFU2Wzls6ttX6BAdAN1mghSxjJ2uu0LvvTb8dQ=",
         "linux_amd64": "sha256-sASAcZCvU8L1I2hH57bsPghr66JoyKAn+3Cq+Tt18q4=",
         "linux_arm64": "sha256-OHIf7n+hhXQUlCBAKR2TCzw/KpeYRaL/Ziiac62fF/8="
+      },
+      "3.2.1": {
+        "darwin_amd64": "sha256-3Bz1UFo5omSmULCDD3QVCtAjaHh+Xq2J5ABwNPj0eDE=",
+        "darwin_arm64": "sha256-Bn/haoUtQuD1cXEuNss+cYVfkX6iBBQV4VX1brxIDX8=",
+        "linux_amd64": "sha256-L5T2tonFnEPlluckIo8oYQldAsKirColekYZZnE1rHU=",
+        "linux_arm64": "sha256-PoBzEMhPEVYbm6Brl48DxGz+yi6ErQgD001dMKimN8s="
       }
     }
   },
