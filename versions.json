@@ -57353,7 +57353,7 @@
     }
   },
   "terraform-provider-tencentcloud": {
-    "latest": "1.83.7",
+    "latest": "1.83.8",
     "versions": {
       "1.10.0": {
         "darwin_amd64": "sha256-allc8NFvkCeILdCjzlo8lwgwcmAss6/DjeJGeOFtRi0=",
@@ -60850,6 +60850,12 @@
         "darwin_arm64": "sha256-U3riel9ixjvl7Wr0ieIhujgnw1v7jYjQFikJg5Gp2II=",
         "linux_amd64": "sha256-8VY843nMdOs5jnt9Vt39oIfbtLr7fmec10wv38CkP+s=",
         "linux_arm64": "sha256-65fM1o3UEE+d8CHeSSCxi5W4JotZ5D6UDKoDHhfnPQc="
+      },
+      "1.83.8": {
+        "darwin_amd64": "sha256-SwmdJfEeoCclRAFniGgGWy2HkFQH5dKGBbWpvtFIqIE=",
+        "darwin_arm64": "sha256-UbPDDW9qjiC6WKOu07xN38TUnlR5NJjBsv40eNxVMfs=",
+        "linux_amd64": "sha256-E77VwFNt3yymhBGhasWwBytqHQlaCH6jlfn2bfV6MYY=",
+        "linux_arm64": "sha256-uskifyZ754Q76gWrC6tfMq8drOHIZ5kkvJUg9GNh0zU="
       },
       "1.9.0": {
         "darwin_amd64": "sha256-jPTjgRo3AFPtPcwKJeoMbt/C6DEcODnLPJCmzksLBc8=",
