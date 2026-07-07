@@ -6665,7 +6665,7 @@
     }
   },
   "nomad": {
-    "latest": "2.0.3",
+    "latest": "2.0.4",
     "versions": {
       "0.1.0": {
         "darwin_amd64": "sha256-EhEyMl7PfWmdqVhoqgcOlTfQAL3XDfiqKZOlc4jkniQ=",
@@ -7773,6 +7773,12 @@
         "darwin_arm64": "sha256-5ILCXGCOp8QLzHWmgCxRWA4/oI46eOOH+vYrbUmeyws=",
         "linux_amd64": "sha256-hFXVaR3ky0UelEMoLxwBcVcLSAc3/GOGmSY4xSpHleQ=",
         "linux_arm64": "sha256-Yc0b+DC12wfoerXR27c6eyP75MWu1tgd0M3cBAAbVQA="
+      },
+      "2.0.4": {
+        "darwin_amd64": "sha256-ZVRtHSc3I/00fBE9yLWcaV4o1mFdbjvX321u5u9+mu4=",
+        "darwin_arm64": "sha256-3dn6a2MvJ2BPZb8e/oL58l9de9SbIEoQtal8h4ZZWAE=",
+        "linux_amd64": "sha256-9rDVVfZd59ge8ydNfX38rW/yTW5iFKgG3rXFC5CeR7c=",
+        "linux_arm64": "sha256-QGNU/MfLd9YWnN/sE9wVzUQN1khviNENKMHTsXolS+o="
       }
     }
   },
