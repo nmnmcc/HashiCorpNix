@@ -6063,7 +6063,7 @@
     }
   },
   "envoy": {
-    "latest": "1.38.2",
+    "latest": "1.38.3",
     "versions": {
       "1.26.2": {
         "linux_amd64": "sha256-NTgGpX4JDIZJU9xc1yxy4IbLNdu0dvB+lm0Vnt2G9K8="
@@ -6211,6 +6211,10 @@
       "1.38.2": {
         "linux_amd64": "sha256-7qZQpLT3PgIC7Op8YZaSViKECv4eUUOYuOS4T7nmhM0=",
         "linux_arm64": "sha256-cxFkHCDJgF1mBYK9ogK7PO59Vb4JyX0jG5iS3y+0OVc="
+      },
+      "1.38.3": {
+        "linux_amd64": "sha256-RHr0+mXV3emdyTQHgQCAw40pu59MxdnWHnEjcCc3SCA=",
+        "linux_arm64": "sha256-pmONewPyeLR44xcRSaMU6pFch7Hy1qlhXM1i8bx9PYQ="
       }
     }
   },
