@@ -5308,7 +5308,7 @@
     }
   },
   "consul-template": {
-    "latest": "0.42.0",
+    "latest": "0.42.1",
     "versions": {
       "0.1.0": {
         "linux_amd64": "sha256-nSVMlfVQV/aFltH9ilLiQIPZwLKTtPMizYFeq1kRINA="
@@ -5700,6 +5700,12 @@
         "darwin_arm64": "sha256-2LcLV37IghF9OVK1GUMOH5aOnEPbx43f4PDVfOnb4+w=",
         "linux_amd64": "sha256-lNUES4IsUhm7EWkWuNTSVFYw5s4OFjnd0lMJomz2L/I=",
         "linux_arm64": "sha256-yVLWjXI4P3VZmAui2b8YhNBYIv4NFrdsR6wDcrMDIEo="
+      },
+      "0.42.1": {
+        "darwin_amd64": "sha256-6NdqUWFXbGI18KYPcSvHOPdCil67MIq/gtJdzoR7rIM=",
+        "darwin_arm64": "sha256-C2gxNR86V9SY3XaqrgH9CFSQwNGxFPnmh9x+Rw7E54I=",
+        "linux_amd64": "sha256-q4aBekrPYZxmEtmbjhFJaoECfyuEYyiHyUHD59Q8uqc=",
+        "linux_arm64": "sha256-Elr94v75X+9uZetZYSDptF7cn3b3jQAUOJdPESGr36o="
       },
       "0.5.0": {
         "darwin_amd64": "sha256-68mOWaOTXVYRla6xjYw/RyKBxpLBYcmyEZTHYeYXvcw=",
@@ -10614,7 +10620,7 @@
     }
   },
   "terraform": {
-    "latest": "1.15.7",
+    "latest": "1.15.8",
     "versions": {
       "0.1.0": {
         "darwin_amd64": "sha256-MJrtDtYVhuJoL1i3d4H46YBXRaXt0a683fiDyfYkoLk=",
@@ -11601,6 +11607,12 @@
         "darwin_arm64": "sha256-cReRv0E2UTeppK2/PkxKGN1zidRcajA548aUa8dQCA4=",
         "linux_amd64": "sha256-c7u49RiK111PuFP9EArk1+FG73r32xh3YQlkL9t3WdI=",
         "linux_arm64": "sha256-ep6SEF7el4z5BJovvlPf5nxqjaS01/YT2J5918Y+xA0="
+      },
+      "1.15.8": {
+        "darwin_amd64": "sha256-4ugS54N3EVm/dY/U5V1tybsI9j4q8sY9ISchgHoCxdw=",
+        "darwin_arm64": "sha256-8hARDFaYuU2AOnpjzbAlG1RVwVCEFHiAjiu7ND+V7Wg=",
+        "linux_amd64": "sha256-0lzntpAgE62QXbPS6rC+TNkFiH/oi4GmFxuNVQPDHz0=",
+        "linux_arm64": "sha256-iJHp3O3J47iVC8avnU2K8fTPreMGL1O53EA6ifbOjJw="
       },
       "1.2.0": {
         "darwin_amd64": "sha256-GxAro78MYP9svudPchv4EFeTwRB6HG0D3KuY1wefDHc=",
@@ -18940,7 +18952,7 @@
     }
   },
   "terraform-provider-awscc": {
-    "latest": "1.91.0",
+    "latest": "1.92.0",
     "versions": {
       "0.1.0": {
         "darwin_amd64": "sha256-o5aKCnXoeVsfGL7veTvM9y3hR33Xr09Oc9LLcb0CImA=",
@@ -19965,6 +19977,12 @@
         "darwin_arm64": "sha256-N9Ac2qXLxP/+cnwnKZtTEWH96vQra+25FmrHkw4wsY0=",
         "linux_amd64": "sha256-vKzSochMR8fAfs03+SpaCo0A9rOxHTTcxJntsloXzY0=",
         "linux_arm64": "sha256-KKU7gWnCH37SVUVNayfulVvzm+j2V6Cf9OtYK29Fr7U="
+      },
+      "1.92.0": {
+        "darwin_amd64": "sha256-+wlntu1lpsyK2O5XFYijxqslRXSbpdNWM6UoOOQ5fXk=",
+        "darwin_arm64": "sha256-Joo4Wls3olEVUNn7IMdX3Fb7FcWVq/RlCEzWWDJRYzA=",
+        "linux_amd64": "sha256-ckr/IwLWdVoXdIoe+KMQAbHSf/AKg2UDuX2Kw+3hte4=",
+        "linux_arm64": "sha256-M+BAMchuhd523t6B9/0ySutQ9KFcOMatiGHe47suvqk="
       }
     }
   },
@@ -31184,7 +31202,7 @@
     }
   },
   "terraform-provider-github": {
-    "latest": "6.12.1",
+    "latest": "6.13.0",
     "versions": {
       "0.1.0": {
         "darwin_amd64": "sha256-5XNH1PGRhp3EN4c+CTrwbk/6WdSTex/kPJq95Lpkg3I=",
@@ -31972,6 +31990,12 @@
         "darwin_arm64": "sha256-+rQZcaPt7gSrbs6uq07rmisvOKKvOwbtqT4hF7ZJlL4=",
         "linux_amd64": "sha256-3p9FXvNCzDj7drzoRL/NN2+4Gkufm8L64CP/me/fEzg=",
         "linux_arm64": "sha256-WnC10qxlDFyYGaGHVBHr2iKdD8xsn1f511GFLKPNd6w="
+      },
+      "6.13.0": {
+        "darwin_amd64": "sha256-KmoRwh6uQIBV9FuVM8B6/S6EX21Jb9G2Ra7C6HMBIQM=",
+        "darwin_arm64": "sha256-wmqbykhlZlCE5/WbFALXr/NO5jpBjXQBoGWPooDK1NQ=",
+        "linux_amd64": "sha256-XdBd7md/br2+0Ay7G5vkRKstEGLTRcvJ7FCkfLQbhiI=",
+        "linux_arm64": "sha256-CrKfwhaZ80NFzwu75EdF/RsUO3xztBDB3Eq+Bf+tCoQ="
       },
       "6.2.0": {
         "darwin_amd64": "sha256-qAlI6/4MgDzLN/2Uy7ShywnI6J+oXPRGgGCqNf8ieRY=",
@@ -51260,7 +51284,7 @@
     }
   },
   "terraform-provider-ovh": {
-    "latest": "2.15.0",
+    "latest": "2.16.1",
     "versions": {
       "0.1.0": {
         "darwin_amd64": "sha256-2GTOYYCSWLoff9ETHX0NahXd0kWVZcUTTCPYYj6+k+w=",
@@ -51681,6 +51705,12 @@
         "darwin_arm64": "sha256-/Q5I3oJt8E4YSJ0zsP81vXdstudwQYj2fa1my7BB5a8=",
         "linux_amd64": "sha256-58eQWVT2nw1bbPm9h1chAZJOEoqjMxGFbbv+3XETYdI=",
         "linux_arm64": "sha256-YuSSCOKVDa82azlmlNx95bujGot6EKrHwCHyx4/WT3A="
+      },
+      "2.16.1": {
+        "darwin_amd64": "sha256-FC0pOek2oMYKlVmO+qYZ/RA9DxxMKpUhXT5InbjWWCc=",
+        "darwin_arm64": "sha256-/1x5+H7caHCkGtTQalawSY5MDpwX5W/F1olv5DQLkUQ=",
+        "linux_amd64": "sha256-OIzQ/KWjhOuqniz7hez43oh1+LT3yHoS7H+NiJg0/+U=",
+        "linux_arm64": "sha256-/+JZxYOlK32e595wIY2vrBhee0FlQAA4qyo3Bl14PqE="
       },
       "2.2.0": {
         "darwin_amd64": "sha256-SPSX/3d/33JQYIdzcre4TQMvfhTyxRw+JUnAfUxk1AI=",
