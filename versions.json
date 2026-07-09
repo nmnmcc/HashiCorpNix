@@ -3292,7 +3292,7 @@
     }
   },
   "consul-esm": {
-    "latest": "0.10.0",
+    "latest": "0.11.0",
     "versions": {
       "0.1.0": {
         "darwin_amd64": "sha256-zcG8dI2gOMWfHARGa+eHe8d4amBGW5s2LH7WIMhqM50=",
@@ -3303,6 +3303,12 @@
         "darwin_arm64": "sha256-OTGa0yl0ETdVwEGV+VdYlCD8ycqog5m1sPaHSEvSj74=",
         "linux_amd64": "sha256-OfgVZjSQUkH/RUxDS5YRB8Z6h2jPieEoYIIi5g4tCCE=",
         "linux_arm64": "sha256-o11MDTWm7ari5DfmcpbgHUEZ1yre4b8hki+aH7336jY="
+      },
+      "0.11.0": {
+        "darwin_amd64": "sha256-u5eDEZx+svvQBANUwao4LzTutwy/KqWSXxoMxVZGIBs=",
+        "darwin_arm64": "sha256-dIHnn3VsVEsoPCFi8FyBL/hBuDgE8JrBj1yuoyIL6BA=",
+        "linux_amd64": "sha256-daO5L4zV3Z0yZKXMybPgmis2+Nc+eFNFDcC0Jje5TtI=",
+        "linux_arm64": "sha256-ez/RMiPzyISg1+U5EB4B0poeJ0BBeXHwdPgTV8iEUbo="
       },
       "0.2.0": {
         "darwin_amd64": "sha256-xkaT0Ylp4C6zZbSY7fv77Lw3++4+BNbc26W+fObS9z0=",
