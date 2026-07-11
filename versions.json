@@ -493,7 +493,7 @@
     }
   },
   "boundary-desktop": {
-    "latest": "2.6.1",
+    "latest": "2.6.2",
     "versions": {
       "1.0.0": {
         "darwin_amd64": "sha256-w7ZEFKD47D+bvdHkeo7zSQwsO8gHGlRqXBbfdJofMZk="
@@ -616,6 +616,11 @@
         "darwin_amd64": "sha256-yKRUqj0MMuW2D2ACiI1mRUodasfJrjQ3/eMBfQeLjMg=",
         "darwin_arm64": "sha256-HiF6qEjf3Jga0RBK5sgOXDdRTgW+IwOBJ0YfQCP+GcA=",
         "linux_amd64": "sha256-CwfpW0gnZwzyXj1VY58zQx6qffNncf4zFUJTerUvYBc="
+      },
+      "2.6.2": {
+        "darwin_amd64": "sha256-oSmOmSbduQLOwA6g+7Yv+5S+jwCTEXg9QoC6neWS2uE=",
+        "darwin_arm64": "sha256-KoflCHkvwtoG9QV5OGK7GcXKHkmyEGpz+PZGF6+h/7g=",
+        "linux_amd64": "sha256-0YrmYpj0Q/vpB8zM4Eim2EfJyIVYtvtQdoFexg33gxs="
       }
     }
   },
