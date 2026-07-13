@@ -8016,7 +8016,7 @@
     }
   },
   "nomad-driver-podman": {
-    "latest": "0.6.4",
+    "latest": "0.6.5",
     "versions": {
       "0.1.0": {
         "linux_amd64": "sha256-XfkE2zUNYR2aQWXuAgE6si6BA6uU/OfStqTvwZvuM6o=",
@@ -8073,6 +8073,10 @@
       "0.6.4": {
         "linux_amd64": "sha256-W5rIlYXXNZ+UGiUEsR1Qhm9nwoh8s3Fvuiu6oHSaFKg=",
         "linux_arm64": "sha256-4MK6RZv6XU1qXZ79wFrFCTb4Up2IiwTihyXzAjQvV9U="
+      },
+      "0.6.5": {
+        "linux_amd64": "sha256-eGsE7p0ALmtCMdvLjd46tlxv4KcooB/K0U6HpoHkjOE=",
+        "linux_arm64": "sha256-U2crF5y3H5qBT9tA7C/KvpFxbV1E6tqEoqY9s4rWYHc="
       }
     }
   },
@@ -8821,7 +8825,7 @@
     }
   },
   "packer-plugin-amazon": {
-    "latest": "1.8.1",
+    "latest": "1.8.2",
     "versions": {
       "0.0.1": {
         "darwin_amd64": "sha256-a4mWilhiWTKV3c2vROp8/6q2QKnXXiVzsvMV9ULTBFQ=",
@@ -9098,6 +9102,12 @@
         "darwin_arm64": "sha256-k6Egi33uJ9NN7NhnzCrHWy7KQRyJbQQ0d8NdEaGhyL8=",
         "linux_amd64": "sha256-Z8xrlytLr51X1IpoM7kGZwD8KaKtBUgrooFzFkq5dVc=",
         "linux_arm64": "sha256-NUyX9tYtbXvthKKG7VfaAZI2MzCr7EEWfAtNJvUG+wc="
+      },
+      "1.8.2": {
+        "darwin_amd64": "sha256-ktbKTI5g6rl7UUodlqdTHlKtW+fL0pXDAe/mIaugMuE=",
+        "darwin_arm64": "sha256-8L/e3zfYQNgvKpp1RF0oeO5lYdX6IVik3vHSlw0IjzQ=",
+        "linux_amd64": "sha256-Gw969f7Dz9uEPD3PL7mrcLxjTm4nZwiTiQr0K0pz6L0=",
+        "linux_arm64": "sha256-KIfKqrt4OuTpimJm40rXr3AJJO6crZ5Jsxb4Wj+jiPY="
       }
     }
   },
