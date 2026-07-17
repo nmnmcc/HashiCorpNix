@@ -20741,7 +20741,7 @@
     }
   },
   "terraform-provider-azuredevops": {
-    "latest": "1.15.1",
+    "latest": "1.16.0",
     "versions": {
       "0.0.1": {
         "darwin_amd64": "sha256-/82yIj+sz2PgV4LP8LryAsOcNEQFXXceTcoOxjW4tMM=",
@@ -20959,6 +20959,12 @@
         "darwin_arm64": "sha256-aJ88gYS+yqnODBFY2pX5X3NnkybdzCJQ+Jsnil76gLE=",
         "linux_amd64": "sha256-QLJ00OLDfZqd4Uv3UYrlK6OErDbE1BTZw919mAhDa2k=",
         "linux_arm64": "sha256-UVASbDXWNef4UBwUGdZFoA7wpCYihmOCL+kPc5LmnX8="
+      },
+      "1.16.0": {
+        "darwin_amd64": "sha256-C+et8Nz3crpHWVYUH0gbv2pa3zEfHGUOzU9TdN5wETE=",
+        "darwin_arm64": "sha256-pWRcNs8K0W1OLKC/x0BN/G42BHdNmJNGCEqvetITTsQ=",
+        "linux_amd64": "sha256-oVYVKPO8U5V6n7ndcm+ka+oIuKJaNGwSpn5tDnu+3MM=",
+        "linux_arm64": "sha256-9GGQ0bIh74gsRtSAGu0QxYtunKOhGWaybBn/jjtOaf4="
       },
       "1.2.0": {
         "darwin_amd64": "sha256-eikIfZeue2jfHKGWQao3P+XtwYKHYPSXzyFTkMYnWHI=",
