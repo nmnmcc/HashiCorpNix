@@ -9940,13 +9940,19 @@
     }
   },
   "packer-plugin-kubevirt": {
-    "latest": "0.8.0",
+    "latest": "0.9.0",
     "versions": {
       "0.8.0": {
         "darwin_amd64": "sha256-6PxVSuiJFnFnSlYqjC+6Bdtxv2fHp6KcNTYonlm+1qc=",
         "darwin_arm64": "sha256-NWzSae9mtqPDXTHajQRa6Q8IAt8U9A+HM7MV6TL/5Jc=",
         "linux_amd64": "sha256-f+w5zxxTaAQGYtWZkuXFJMTteNjcZ6dNsYhsKOQuTU4=",
         "linux_arm64": "sha256-OWZ3iunA/vec1pPUMR6k/hBXthqLi4dqoIEjBaOaHXg="
+      },
+      "0.9.0": {
+        "darwin_amd64": "sha256-OqohTei6uuZDiDljJ3kqXJz0dMhonr64Z1yFV5G2jCk=",
+        "darwin_arm64": "sha256-TMRyomrg3ip5eJmD93AI9oE/CwNz1VO1gLwQK3AdBXY=",
+        "linux_amd64": "sha256-kIZ8C6YMhRzCzNq4foWIyzOU4DMSGkVXHrOSwM/Jg+s=",
+        "linux_arm64": "sha256-HB5smJF3V92pOAnYVsyiUHCufB26RZkEUiI8auvkhRU="
       }
     }
   },
