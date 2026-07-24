@@ -66272,7 +66272,7 @@
     }
   },
   "tfc-agent": {
-    "latest": "1.29.0",
+    "latest": "1.30.0",
     "versions": {
       "0.1.0": {
         "linux_amd64": "sha256-oyg2AX9T/anb43jPnx7lY8bEx449keDV9gs3mWLfMgQ="
@@ -66622,6 +66622,10 @@
       },
       "1.3.1": {
         "linux_amd64": "sha256-fvpQ/mQbJbcWFXkKKsLbSHyfO0uVcNLfqaqHsnRo3AM="
+      },
+      "1.30.0": {
+        "linux_amd64": "sha256-DfiE2+8DdrUkhXptog+0Inq6Fub9roe1ttMoqa0ENcE=",
+        "linux_arm64": "sha256-uUQPpcNAccn0Zc4yEuam2/qJ0lN+2aUmmLnviqdCa9o="
       },
       "1.4.0": {
         "linux_amd64": "sha256-dwB8NE2gZTdIQFtz70gKoXkYgxF0EROUmdDMop7NuuI="
