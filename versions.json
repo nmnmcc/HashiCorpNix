@@ -5324,7 +5324,7 @@
     }
   },
   "consul-mcp-server": {
-    "latest": "0.1.3",
+    "latest": "0.1.4",
     "versions": {
       "0.1.1": {
         "darwin_amd64": "sha256-NtoyeHrfNjG1bXMqIwCjah5ADEUKvxpCWUSdgQZkz7o=",
@@ -5343,6 +5343,12 @@
         "darwin_arm64": "sha256-yhEg/4hwgaZy4orDcKQit+G0UG5p3wmzSPGDSJBgNhA=",
         "linux_amd64": "sha256-zA56g9+H0xnD/rJ/u86i0vaSNbw1TzTHMGViJtxcnfU=",
         "linux_arm64": "sha256-ds/seGo4r+AA4Ia4j4ukxWKNKLHNu+HVmnJsFyU6uE4="
+      },
+      "0.1.4": {
+        "darwin_amd64": "sha256-ENTG87wXDyaVOMDhD/4ZgSwYA0p7dVCjwBKDqCXIqn8=",
+        "darwin_arm64": "sha256-as+q26JDTBtTStfw1ubcX3UZn4Br3gbluKNuh8Yr6BQ=",
+        "linux_amd64": "sha256-jtLnQBhotFJnKyjzPq+FbjdzJVtS80Ieb/op9DyEYbU=",
+        "linux_arm64": "sha256-RLyRKKLL6thhRp3SihUEi0V1TH/zMciiFwNiCHxjJpk="
       }
     }
   },
