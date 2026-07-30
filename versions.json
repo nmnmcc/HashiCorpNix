@@ -68633,7 +68633,7 @@
     }
   },
   "vault-lambda-extension": {
-    "latest": "0.14.0",
+    "latest": "0.15.0",
     "versions": {
       "0.10.0": {
         "linux_amd64": "sha256-mFsMhgtGVoXY5TBLG7/8/EdWXQmiAPvPfGaZKjdA4AI=",
@@ -68674,6 +68674,10 @@
       "0.14.0": {
         "linux_amd64": "sha256-Q8gJA+vI8KXUszlI7cPZ9nPFkDiYApspYHSVesoxmEE=",
         "linux_arm64": "sha256-y3hKjjk3hpHBI/AefrRB7uveuerl6D+CsN1myMrB7Xc="
+      },
+      "0.15.0": {
+        "linux_amd64": "sha256-bZ1PvNa5NmhGFcZXjuyYccJIisyPSeTORQo5/VW0dk4=",
+        "linux_arm64": "sha256-pyrmIPUcqEFTEGsADcsXng9jkFpkG6NuSYRNAgvO4hs="
       },
       "0.4.0": {
         "linux_amd64": "sha256-n6fB6xxx7NMNtF/Rsw8m86GyfUyGn1T0B4fikITWQcs="
