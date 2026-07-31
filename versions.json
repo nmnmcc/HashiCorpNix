@@ -66722,7 +66722,7 @@
     }
   },
   "tfctl": {
-    "latest": "0.3.0",
+    "latest": "0.4.0",
     "versions": {
       "0.2.0": {
         "darwin_amd64": "sha256-9LgoSdFd07fO+UycRA0f2txtZOClawob8rw8JH5nSos=",
@@ -66735,6 +66735,12 @@
         "darwin_arm64": "sha256-BFpdfr8pEwBiE7SFNTrPfIMrvyjhzzpqNDE912HU9TU=",
         "linux_amd64": "sha256-VSa0OLtmxbyHL1XEu7cyW7Pp0WLd05Lu09YPQHWYz2I=",
         "linux_arm64": "sha256-EGCykDzY+csK9ch4z4l5Dg9Yi3NbZxXS7q3VLFpx+MU="
+      },
+      "0.4.0": {
+        "darwin_amd64": "sha256-GXhuvds8vZIkAtIVd+hYQjhZEKZm5isfmw3kZSDFJ9c=",
+        "darwin_arm64": "sha256-5T8rll7sJDXVVD/0tv95m0vqwODCM6OjVRWKvkxSRjI=",
+        "linux_amd64": "sha256-BV02XPFlcI3TBHR/J6ckLFHOYaC/aAvYP9Or58vKo1Y=",
+        "linux_arm64": "sha256-XyyveQC49D3XLzkLmSuvzqtK6Fu8WLYDJbsYiO+aDlM="
       }
     }
   },
