@@ -625,7 +625,7 @@
     }
   },
   "consul": {
-    "latest": "2.0.2",
+    "latest": "2.0.3",
     "versions": {
       "0.1.0": {
         "darwin_amd64": "sha256-fPhlu8Ov5LzC3ROhfsWQkqKAc1jlVlrayqx+0IREUwo=",
@@ -1852,6 +1852,12 @@
         "darwin_arm64": "sha256-WVRQmuxe1U2ryI/I41d1bHsNxWQ3vSlsE5nlJeNldBc=",
         "linux_amd64": "sha256-luVsnQa0oVv6MWr6Oa+SbBtn0Yn2Y4jcHuy7fCb67tQ=",
         "linux_arm64": "sha256-cME7M/R9oTx8eXtX1szIpzjs8zyOOuxMJoZA3Be6Zgw="
+      },
+      "2.0.3": {
+        "darwin_amd64": "sha256-moztOWEL5zxLbJGOZMFYmj/pdH86IYi42lXQo13cpOA=",
+        "darwin_arm64": "sha256-/tBejiopaYnBpchuOzjV9NvcfYPgwKz0xf5+MC6PT94=",
+        "linux_amd64": "sha256-MCDuo/39k56wIeysoQWhUTr1KyLnby7pfqhazG/y+DI=",
+        "linux_arm64": "sha256-dVHY8Hy/tjPSYP4nqfcUTOCPHLlk4x4VeIMJ37bC/aU="
       }
     }
   },
@@ -66376,7 +66382,7 @@
     }
   },
   "tfc-agent": {
-    "latest": "1.30.0",
+    "latest": "1.30.1",
     "versions": {
       "0.1.0": {
         "linux_amd64": "sha256-oyg2AX9T/anb43jPnx7lY8bEx449keDV9gs3mWLfMgQ="
@@ -66730,6 +66736,10 @@
       "1.30.0": {
         "linux_amd64": "sha256-DfiE2+8DdrUkhXptog+0Inq6Fub9roe1ttMoqa0ENcE=",
         "linux_arm64": "sha256-uUQPpcNAccn0Zc4yEuam2/qJ0lN+2aUmmLnviqdCa9o="
+      },
+      "1.30.1": {
+        "linux_amd64": "sha256-2q+rVvVB+/tYwErC5M1saABdTy9Va/yxIaP46inQn3k=",
+        "linux_arm64": "sha256-D/xZT9RK0w3bTu3/dGYhKuRf9CxI+STK4ZOoDUDuOdc="
       },
       "1.4.0": {
         "linux_amd64": "sha256-dwB8NE2gZTdIQFtz70gKoXkYgxF0EROUmdDMop7NuuI="
