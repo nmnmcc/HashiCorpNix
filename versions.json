@@ -68466,7 +68466,7 @@
     }
   },
   "vault-csi-provider": {
-    "latest": "1.7.3",
+    "latest": "1.7.4",
     "versions": {
       "0.4.0": {
         "linux_amd64": "sha256-kTtRKVUGc8fuzg1jgHtZCsvliqVndYbWc73jqcAgp60=",
@@ -68535,11 +68535,15 @@
       "1.7.3": {
         "linux_amd64": "sha256-zptLpURMZWXl2Pd3Nt0LwY6YPDiphquZbBaahTaqik4=",
         "linux_arm64": "sha256-+306KNtMt8kxWywICQ8j78BPX+j91PZTjuIwjeeE6kI="
+      },
+      "1.7.4": {
+        "linux_amd64": "sha256-XsfSJMwIAI/aRfZSoI0BGCLjL8l7xRi4DccV8iHwy1I=",
+        "linux_arm64": "sha256-zUUZZCKZFHTNLmGyun6EcrW24rF6sb7L4jiO3d2nEBg="
       }
     }
   },
   "vault-k8s": {
-    "latest": "1.7.5",
+    "latest": "1.7.6",
     "versions": {
       "0.10.0": {
         "linux_amd64": "sha256-MZGr0OMhRiwOhy900Hy7cymlE8z/w+kGAUijt3ytOko=",
@@ -68695,6 +68699,10 @@
       "1.7.5": {
         "linux_amd64": "sha256-oMGYWu6vX64r3AWPY4hhaaRy3+lSArCBRjIqd7SmvD0=",
         "linux_arm64": "sha256-vmmym2yRzqAD+YEjRvQBuuzw1dC5K3eZ1keMJ1MryZ0="
+      },
+      "1.7.6": {
+        "linux_amd64": "sha256-qFkzqUaZ5gw3vys2ql2fk0jxUwV9FAHI78bj3vxUngY=",
+        "linux_arm64": "sha256-UbJ9VlmmJeeZZD1dmwkwMin0NVjYtx911LVB9obcHHU="
       }
     }
   },
