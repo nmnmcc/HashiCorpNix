@@ -21157,7 +21157,7 @@
     }
   },
   "terraform-provider-azurerm": {
-    "latest": "5.0.1",
+    "latest": "5.1.0",
     "versions": {
       "0.1.0": {
         "darwin_amd64": "sha256-YEVu0ijADYdCj1YuDWqYWCa7iTTJyj9HqH4GOFzBtYo=",
@@ -23348,6 +23348,12 @@
         "darwin_arm64": "sha256-LenK+Tcje/XudHuAOxWggnbOsnX2EfZET8o9gvx1r+w=",
         "linux_amd64": "sha256-leVyeT7+8Se3c8NeFYHkYul/s4z2lrxsr1PBIx4ho2w=",
         "linux_arm64": "sha256-PEXngzIYc0yl7TIeeZqNir7WgB4nOX6xBtD1Xfseqoc="
+      },
+      "5.1.0": {
+        "darwin_amd64": "sha256-Ki9s1AcwO2jgOPgGdujXLwoLmdc7TmWBcaN3neZY3SI=",
+        "darwin_arm64": "sha256-FyX74i363QQus3mPIGTyLaoWGdvWfzKl3zqWscjEzUM=",
+        "linux_amd64": "sha256-QlOUGYzNQIvFoddtRNt33fXFnhYf7ap7Ubp+4YVYFek=",
+        "linux_arm64": "sha256-1Ml/ReksLaUc+m/V5b4UGeWoHG/gSAihuzNKV2JdVX0="
       }
     }
   },
