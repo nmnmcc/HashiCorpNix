@@ -35057,7 +35057,7 @@
     }
   },
   "terraform-provider-google-beta": {
-    "latest": "7.44.0",
+    "latest": "7.45.0",
     "versions": {
       "1.19.0": {
         "darwin_amd64": "sha256-Fj27i4E2sVRqVL4F6UygIH9J00seVO4AVZqKEyaFGYM=",
@@ -37217,6 +37217,12 @@
         "darwin_arm64": "sha256-sfsVkYVYDlbeTjCaxN34nAIG8pxVVv+Ls96za9uJ9DQ=",
         "linux_amd64": "sha256-dbutAec3le7BYZoYFuhDDD34LNKOPNhMdI8Rb4d8aC0=",
         "linux_arm64": "sha256-HOpdSJvJqrWb8OQ4sDOvG5CuYY0yBKixQ1JNdX2/500="
+      },
+      "7.45.0": {
+        "darwin_amd64": "sha256-ZMn6XtdrVSfEzNAlaHIqNUR/z7aFLh2M0At+INzAskM=",
+        "darwin_arm64": "sha256-1U+bjwElIluoo9cOrBiQFcWNtgr7ynrZknUY/x5OiIY=",
+        "linux_amd64": "sha256-WlHnttDLuy9qBIIdscvSmcovvo3/MTS9KkdtpsMJZsg=",
+        "linux_arm64": "sha256-sZsUbUUdjjKolVlghGBxPXPwt7FJDbRFy2z7FEDZphY="
       },
       "7.5.0": {
         "darwin_amd64": "sha256-25AFJRuYAogaI7pcxXiXO4wEqyuk+eWCZ6P9h4Sm5sQ=",
@@ -66544,7 +66550,7 @@
     }
   },
   "tfc-agent": {
-    "latest": "1.30.1",
+    "latest": "1.30.2",
     "versions": {
       "0.1.0": {
         "linux_amd64": "sha256-oyg2AX9T/anb43jPnx7lY8bEx449keDV9gs3mWLfMgQ="
@@ -66902,6 +66908,10 @@
       "1.30.1": {
         "linux_amd64": "sha256-2q+rVvVB+/tYwErC5M1saABdTy9Va/yxIaP46inQn3k=",
         "linux_arm64": "sha256-D/xZT9RK0w3bTu3/dGYhKuRf9CxI+STK4ZOoDUDuOdc="
+      },
+      "1.30.2": {
+        "linux_amd64": "sha256-pGabU8OOHCTwjOzyfPhQ2GJ10zDfHerrR7Z3E9Xm/5k=",
+        "linux_arm64": "sha256-M8F7N8pEnTk3/KbGZZY9vz3rfU14hBmY+AuwwHBGGS8="
       },
       "1.4.0": {
         "linux_amd64": "sha256-dwB8NE2gZTdIQFtz70gKoXkYgxF0EROUmdDMop7NuuI="
