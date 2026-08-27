@@ -67054,7 +67054,7 @@
     }
   },
   "tfpolicy-plugin": {
-    "latest": "0.2.0",
+    "latest": "0.2.1",
     "versions": {
       "0.1.0": {
         "darwin_amd64": "sha256-CWKkxpXNMTEm/w30527s1Zg+sDPLTkhbn+hfOExEAO8=",
@@ -67073,6 +67073,12 @@
         "darwin_arm64": "sha256-JKYIFPL23Ep3eB+flnPRd/hHnQIEN4dNNSLz34srvug=",
         "linux_amd64": "sha256-2iJNz+E7yzGpy5QSfSEmKcmKVNC9/SKEnOn7x/dHmSQ=",
         "linux_arm64": "sha256-yCa1uCNwVfYtZrbQ/BU4UwkkkG4OHSCuFV2NuMLv+Wk="
+      },
+      "0.2.1": {
+        "darwin_amd64": "sha256-sGZVSqz+ZbiWkgJ6qfvo46b44dKWJeNFepTqj2XVMN4=",
+        "darwin_arm64": "sha256-okugNDjyvY497coUv19yCa6fw+iMqdkX/qB/iERNbRc=",
+        "linux_amd64": "sha256-JwXYtYNn+h9nzTEIq3OMH4KW5QXQKGriil9Ju51VsEM=",
+        "linux_arm64": "sha256-ZEOr8FLSpC2meSfMHwGuhrLTQTlS7mBXZxzwD0hjhak="
       }
     }
   },
