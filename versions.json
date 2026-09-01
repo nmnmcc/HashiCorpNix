@@ -67399,7 +67399,7 @@
     }
   },
   "vault": {
-    "latest": "2.0.4",
+    "latest": "2.1.0",
     "versions": {
       "0.1.0": {
         "darwin_amd64": "sha256-Tc6DrC/Nj8SAnDmkBokYBMGF3E+x9nDw4PQ1yufopj8=",
@@ -68720,6 +68720,12 @@
         "darwin_arm64": "sha256-c7Nude7c+UkmJwfZFpp5OjkBoJkDBjKRY/OslN8x1fo=",
         "linux_amd64": "sha256-dCnn2F+O8p3wY3AcSUIPeYSgriyFEcAmzHXt+7st84c=",
         "linux_arm64": "sha256-h7to/dBMqQzUz1T4zXg6A3+/hgtz2F5ml/YSnaxJxoM="
+      },
+      "2.1.0": {
+        "darwin_amd64": "sha256-TslaiLOrKk82faQauYlGIE1dhbNrJrccZoXbmX39424=",
+        "darwin_arm64": "sha256-xlidxlj3Lr0nkrH7p7LlNBM2etZzriUTz97GQi7U2iw=",
+        "linux_amd64": "sha256-COihPSnSDF4o714sGHvzouhHEqQ2Fd4bPSRwGtmquXI=",
+        "linux_arm64": "sha256-MZs+t7DCrSGEU/XRr1wjysgaAk2zoHzNJJTs0x8gkMM="
       }
     }
   },
