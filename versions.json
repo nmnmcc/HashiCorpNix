@@ -69599,7 +69599,7 @@
     }
   },
   "vault-plugin-auth-jwt": {
-    "latest": "0.26.3",
+    "latest": "0.26.4",
     "versions": {
       "0.14.2": {
         "darwin_amd64": "sha256-PFMmVmEoaOgYg9nkjjJr513oyPTqkfqdrrBsbeh08s0=",
@@ -69750,6 +69750,12 @@
         "darwin_arm64": "sha256-T/qGERhnt63vz0OldNWvPyIheLmnPzix/YWh0VVHY8k=",
         "linux_amd64": "sha256-P8IFLv5JRmPYUsftW80lnsrUXVY9kbWeCg+RJ2Ze7U8=",
         "linux_arm64": "sha256-p0VqW35yU/fw8eMRGdpV0emPdR7JNblo75vBeXJdq7s="
+      },
+      "0.26.4": {
+        "darwin_amd64": "sha256-lIAaCE96J6n0y85Bfh6puEECXpQEsU1/aehwr8PnT6g=",
+        "darwin_arm64": "sha256-8n0xV3RZWVKgURHNcxFzSMxrsjNjlOfUAq/+aNOJ6jE=",
+        "linux_amd64": "sha256-/+IxEC5buQ7wnJfQmDCIKym0q8lgOJ5lmZwCzjikSUs=",
+        "linux_arm64": "sha256-2HdwGJlYtVDmWNbjiB3+uFmOqy1wM7G3XzZmgqQY3QQ="
       }
     }
   },
