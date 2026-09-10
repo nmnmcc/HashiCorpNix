@@ -493,7 +493,7 @@
     }
   },
   "boundary-desktop": {
-    "latest": "2.6.2",
+    "latest": "2.6.3",
     "versions": {
       "1.0.0": {
         "darwin_amd64": "sha256-w7ZEFKD47D+bvdHkeo7zSQwsO8gHGlRqXBbfdJofMZk="
@@ -621,6 +621,11 @@
         "darwin_amd64": "sha256-oSmOmSbduQLOwA6g+7Yv+5S+jwCTEXg9QoC6neWS2uE=",
         "darwin_arm64": "sha256-KoflCHkvwtoG9QV5OGK7GcXKHkmyEGpz+PZGF6+h/7g=",
         "linux_amd64": "sha256-0YrmYpj0Q/vpB8zM4Eim2EfJyIVYtvtQdoFexg33gxs="
+      },
+      "2.6.3": {
+        "darwin_amd64": "sha256-OEUQzDISiUMGS2R0O4CQLBYuV8dQKIwUAWgTz8nRZ4Y=",
+        "darwin_arm64": "sha256-DY+l184nVW6ykFZ3zb0OC5Ib4k3y7ZfLYvzUvoQI7gE=",
+        "linux_amd64": "sha256-fknA/gVx86MPMzm5qsMMOJCCWE8gW10kQwVcXGDL1jU="
       }
     }
   },
@@ -21279,7 +21284,7 @@
     }
   },
   "terraform-provider-azurerm": {
-    "latest": "5.4.0",
+    "latest": "5.5.0",
     "versions": {
       "0.1.0": {
         "darwin_amd64": "sha256-YEVu0ijADYdCj1YuDWqYWCa7iTTJyj9HqH4GOFzBtYo=",
@@ -23494,6 +23499,12 @@
         "darwin_arm64": "sha256-z9jcRkI12/DZyF5PwCdM+qjKLGMojJQ4/sUWksVOmBo=",
         "linux_amd64": "sha256-FDHgUceVef29yBnHD/EdaFWrY3vdnJKkEKYl5UevO7U=",
         "linux_arm64": "sha256-LEW7kHWJjXJmHfhSil+QPmHY7c1eukUWiuxRFlxZw3k="
+      },
+      "5.5.0": {
+        "darwin_amd64": "sha256-iO14T9BLntMmDzF2AtaS49QtkBaxiFu3IW16f9lfqac=",
+        "darwin_arm64": "sha256-+GUfAKTgVFSmKxuKsoXhaXl/5JsyJMtrORajL6tXEOY=",
+        "linux_amd64": "sha256-yDBHYBU3m2xu5h4Snhh8SgQwhstttXbzbEsDw3vXS88=",
+        "linux_arm64": "sha256-9kVisojos2oBPtFD5nA1wPq86GzNuNOTPRk9mUYF/tY="
       }
     }
   },
@@ -44650,7 +44661,7 @@
     }
   },
   "terraform-provider-local": {
-    "latest": "2.9.0",
+    "latest": "2.9.1",
     "versions": {
       "0.1.0": {
         "darwin_amd64": "sha256-nEQqEwxwIgpYjNnGtC3nQuOIpLNv88HM+MPFX/FeJY4=",
@@ -44796,6 +44807,12 @@
         "darwin_arm64": "sha256-/K+jYKWwuWJE8m9OOm1kK3FqN2VXFCwkQv8vsS0R2hg=",
         "linux_amd64": "sha256-vhfcYR6V4mzfbK1538zxBk8OMgMqLv65Oam75/scv+k=",
         "linux_arm64": "sha256-Ux+FKcvKSfaBiD5XdhoFqDmK+u9tGrDSBdJr8S9EKOg="
+      },
+      "2.9.1": {
+        "darwin_amd64": "sha256-bR8Vcttshb1taxsd7vJHCE4YmBaHX2fmvMXUc2eU4Kk=",
+        "darwin_arm64": "sha256-JawhDxNgQgR5dYluXhH+YBJCUwHIJta3ziKkn5ah4Og=",
+        "linux_amd64": "sha256-qOocFVvV4NaVoo08Di9ULeiETheR6gIfAVo/COHAWeE=",
+        "linux_arm64": "sha256-7t/8pwB0rhU3kPsjxKzo0WN6YM66TjxCyOrtp8H50Q8="
       }
     }
   },
@@ -48040,7 +48057,7 @@
     }
   },
   "terraform-provider-null": {
-    "latest": "3.3.1",
+    "latest": "3.3.2",
     "versions": {
       "0.1.0": {
         "darwin_amd64": "sha256-eaYWc8wButqX02syt487o8h+pIwaChQiBdvEbemQj0E=",
@@ -48124,6 +48141,12 @@
         "darwin_arm64": "sha256-8MC6h5Jf4y+EuA91E7HvsbCGb1H4mbqCXpWtWf8JsBg=",
         "linux_amd64": "sha256-haU2RiZ+h9YA33Ek5HZ//em7o7Y1bUXZYWGL3WgTHMc=",
         "linux_arm64": "sha256-VqTaqjIS9Xt2S/PR8zMUHGYQxfIauyQOAREiH3x/pNQ="
+      },
+      "3.3.2": {
+        "darwin_amd64": "sha256-0jpZj3E7+2CYvAA1cdfekLWjO3j5viQEiCUv5fPCpg0=",
+        "darwin_arm64": "sha256-YlOFgtCkovEK2KjZpsPNPwWvbG2RxmQf/HjU8Ojmmyc=",
+        "linux_amd64": "sha256-0oVbki6jRdvYnqKH5MbEdX44vAqv/rK3mqC4AE+cU/8=",
+        "linux_arm64": "sha256-mNqcQnhdJ6UPBgR1i8thow9ieLnyrNkrs7IEbg5xkWw="
       }
     }
   },
@@ -62705,7 +62728,7 @@
     }
   },
   "terraform-provider-tls": {
-    "latest": "4.4.0",
+    "latest": "4.4.1",
     "versions": {
       "0.1.0": {
         "darwin_amd64": "sha256-aFMBHqn2nQerG1hnXFFzlG7Le4zR+FzzH19EQRvwwrQ=",
@@ -62853,6 +62876,12 @@
         "darwin_arm64": "sha256-JGvvtxZKS08++6OE2EOLqoeFhHpX5KMnbT8UQ/jHEcw=",
         "linux_amd64": "sha256-2xiqDaClSkwgMEcYqVtH0SVIDdV2kjasR7aZb4enX3I=",
         "linux_arm64": "sha256-zCCjxSENqbK8kLV4TsRMjvE26zCT0+yj2FHHNx7jsQU="
+      },
+      "4.4.1": {
+        "darwin_amd64": "sha256-ZoHjXVAyi8EaSbthwAISE1P2qETMbWOgw9tXdF7DilY=",
+        "darwin_arm64": "sha256-XATPKmg+pgoAcsWbvPQV8jLDgsiRs6rrm7uyghPg2Hg=",
+        "linux_amd64": "sha256-3ryDDsEj8nlExhcNdstOo1QoRYlpYLufxTBwJ3TfMo4=",
+        "linux_arm64": "sha256-aTuBDkOLsd+8E6QmKVlyhKwesI6zD0bxhzjXqbt2jTQ="
       }
     }
   },
