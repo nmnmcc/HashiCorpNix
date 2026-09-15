@@ -70571,7 +70571,7 @@
     }
   },
   "vault-plugin-database-snowflake": {
-    "latest": "0.16.0",
+    "latest": "0.17.0",
     "versions": {
       "0.10.1": {
         "darwin_amd64": "sha256-izLvmgMHEPu8slwnQU9aEjnlKnR+bHMVS+MqEYiuxVs=",
@@ -70686,6 +70686,12 @@
         "darwin_arm64": "sha256-J4RgJzrtbIkqNJHirnLz3HocJbMHzqQQMttfD6Qc5EA=",
         "linux_amd64": "sha256-YF0NStYyqDX909Ze0YFCRgGx+7jDc5CwWKZG4aKjuDg=",
         "linux_arm64": "sha256-WZ63VSVu3+I+xXT3n5fClz/PVz95aDuVq9c7XyROhbE="
+      },
+      "0.17.0": {
+        "darwin_amd64": "sha256-CtluYjUeAwq4a+rfmAEG3hOOIOuusu66KHGb5HTr6QM=",
+        "darwin_arm64": "sha256-JQTkr9xAi2dbLHiz3Aada3GRgl67fjs1UDtFO6kRxho=",
+        "linux_amd64": "sha256-BgAV4OsK2IMbjxPa+OJaYuZTMvI6/ngzHU3fZw04duE=",
+        "linux_arm64": "sha256-8sN4T/ucZp5mhDQisLXwvU3fISe3HoEQJadNRRfHudk="
       }
     }
   },
