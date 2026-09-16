@@ -69987,7 +69987,7 @@
     }
   },
   "vault-plugin-auth-kerberos": {
-    "latest": "0.17.1",
+    "latest": "0.18.0",
     "versions": {
       "0.12.0": {
         "darwin_amd64": "sha256-KFk3e6EDwrnBxVJtcsHxb3EnwAULF8lZzUKM08WPhfE=",
@@ -70030,6 +70030,12 @@
         "darwin_arm64": "sha256-RcjdFmIoFhUn2fRQVmmkGgGyWpf5AQ/u6k/2xsIjA8Q=",
         "linux_amd64": "sha256-NEnP8RWwomGqi+uwCOTDY+iyHRTuMpSWSpw6gs3KTeE=",
         "linux_arm64": "sha256-vS74iQAAIusYeR7xQgsrZHq9BbR9NrIbvu4Dp8ld+/Q="
+      },
+      "0.18.0": {
+        "darwin_amd64": "sha256-pCyY+TMSEJ0iE64lF0Ixy8wP6UwqguHkaWxhEsISQYU=",
+        "darwin_arm64": "sha256-XIAbvfLlPGdGLXdYhWorxX9UXSprJiB47O35wfZ345Y=",
+        "linux_amd64": "sha256-5svYVf15gGIcCF3Zf/MHeVAnIjebp8PfO2AaI1o2G6Y=",
+        "linux_arm64": "sha256-A7ZsOu9+lnaRuoZS4K7xF9Jpi8IT3b/HHaV0uGPUW9U="
       }
     }
   },
@@ -70141,7 +70147,7 @@
     }
   },
   "vault-plugin-auth-oci": {
-    "latest": "0.21.3",
+    "latest": "0.22.0",
     "versions": {
       "0.13.1": {
         "linux_amd64": "sha256-w2XjeRp6KFbUWFlpJCgk3eWA2o8AhDe/RiYSg9Sf1m8="
@@ -70241,6 +70247,12 @@
         "darwin_arm64": "sha256-JK9iZ2vOiLsy2tktjHQeEr/1AYctE8pdP23jywF950E=",
         "linux_amd64": "sha256-UwRdc1C451h2NkoSptJHgjjKd4kDv5VcLy4k3w/+wtU=",
         "linux_arm64": "sha256-3bDHqn557qZSmm37kkZy8xQxjHeM3sfvrWUCmIahroo="
+      },
+      "0.22.0": {
+        "darwin_amd64": "sha256-Ru36Ypm46KObRi4Z2qcVOA++0k5JjBgPLph203wqK6s=",
+        "darwin_arm64": "sha256-K7XUKvYaVlUrC5+bDBfwIdvcQlJZwhNmeTOjqQVlygU=",
+        "linux_amd64": "sha256-OR7biBXD0MxOZ8P2dGFvLe2isMhebh1z52CCxkSAFRo=",
+        "linux_arm64": "sha256-JvdLnelWnPVS+8kgJ+nDMy4n40GFXyybNvjM785PfkU="
       }
     }
   },
