@@ -21362,7 +21362,7 @@
     }
   },
   "terraform-provider-azurerm": {
-    "latest": "5.5.0",
+    "latest": "5.6.0",
     "versions": {
       "0.1.0": {
         "darwin_amd64": "sha256-YEVu0ijADYdCj1YuDWqYWCa7iTTJyj9HqH4GOFzBtYo=",
@@ -23583,6 +23583,12 @@
         "darwin_arm64": "sha256-+GUfAKTgVFSmKxuKsoXhaXl/5JsyJMtrORajL6tXEOY=",
         "linux_amd64": "sha256-yDBHYBU3m2xu5h4Snhh8SgQwhstttXbzbEsDw3vXS88=",
         "linux_arm64": "sha256-9kVisojos2oBPtFD5nA1wPq86GzNuNOTPRk9mUYF/tY="
+      },
+      "5.6.0": {
+        "darwin_amd64": "sha256-cegyURlAQHa9ko2nAjoTX/Vf+vccr0PefnBU8yLGH+Y=",
+        "darwin_arm64": "sha256-NZAw9uODo7erjjwJCh3leqiEE1nSMXWBnL+07b3fdRM=",
+        "linux_amd64": "sha256-rQAQqatdOw2rEnR/dFmPivjJYeKNTFyrqqApVFHhq9w=",
+        "linux_arm64": "sha256-mNfvgY4VaGDAmlyM461Qw8dBI9IMz2clZTG/g9pJABM="
       }
     }
   },
@@ -63623,7 +63629,7 @@
     }
   },
   "terraform-provider-vault": {
-    "latest": "5.11.0",
+    "latest": "5.12.0",
     "versions": {
       "0.1.0": {
         "darwin_amd64": "sha256-b7ACm6ADDlNMAJB8ROoe7og2EM7Od/u6rzwncD65720=",
@@ -64145,6 +64151,12 @@
         "darwin_arm64": "sha256-G2K1X33/zvtFZRnthExufsfKoHV/j+FTHZr9WfSNKw4=",
         "linux_amd64": "sha256-gppl1/qpkfIlDxLV7bJWMM0H246FejGKuykCz8PIMPE=",
         "linux_arm64": "sha256-RlCGB6GL2nzZ9vkHUXAkhgvId2tLTyX9xPtYP/a97YY="
+      },
+      "5.12.0": {
+        "darwin_amd64": "sha256-+XZbSqkOnk6uA2Juv9/tpUlU7CVSJnrtzh+yZD9ust4=",
+        "darwin_arm64": "sha256-bAJxc2zrCHdL6+30JHNdksT+M7jk2zccwCfL3tBDmi4=",
+        "linux_amd64": "sha256-xh/MTXFM7+4GluL4v3FbWCYJnkBfZqzIWeSW3miLao4=",
+        "linux_arm64": "sha256-UxeIiw41RzQbhDT0K7uN8tML3ZXMG96aTHqA0mb+n2s="
       },
       "5.2.0": {
         "darwin_amd64": "sha256-FNOi/dgsEicvBMiEN5fJrnsRVhVcpS+jw2gnZyI6Mwo=",
@@ -70614,8 +70626,14 @@
     }
   },
   "vault-plugin-database-redis-elasticache": {
-    "latest": "0.9.1",
+    "latest": "0.10.0",
     "versions": {
+      "0.10.0": {
+        "darwin_amd64": "sha256-iMv5XLVT+P+b+863+VOpUjNAkWZ7R5NJYa5ha4Hyon8=",
+        "darwin_arm64": "sha256-Z7z02X3q1fDerCjc8oacmOxMqqEJQQMegmF7qhDZYq8=",
+        "linux_amd64": "sha256-3lEzxjEFRG6A4pE6EjPwRK5eK2f1+pyjw7KPXCFSzJI=",
+        "linux_arm64": "sha256-yz9qIKP9v2VL2JJPEkQRg7GHLGApL8bqT2IAmj9I6H4="
+      },
       "0.2.1": {
         "darwin_amd64": "sha256-UqLe+vwrAPCGXdUsrJvd4fMp4hhwxdyLd50uvTSeJ68=",
         "darwin_arm64": "sha256-r+S0BFzuDXCbvJnfebqnKkiE7devqsEjUIYrWOTCGss=",
@@ -71094,7 +71112,7 @@
     }
   },
   "vault-plugin-secrets-gcpkms": {
-    "latest": "0.23.0",
+    "latest": "0.25.0",
     "versions": {
       "0.17.0": {
         "darwin_amd64": "sha256-tRXVqOAL52mnOrD4oYaGcCbLa0YUdPUSuIFxAdzjRhA=",
@@ -71137,6 +71155,12 @@
         "darwin_arm64": "sha256-+/+4X9ZPc0bMYpf4ShRc/ZOLCDKEeLi8J5WrhGe0BLg=",
         "linux_amd64": "sha256-pVP77EFuhmJhs8Dj6ikiSxm1gIpztfslTBZ43hekfzw=",
         "linux_arm64": "sha256-vETQ4thMxDVa6QYtmx/g1oUoo8mebFW1HMjb9rCxbXc="
+      },
+      "0.25.0": {
+        "darwin_amd64": "sha256-bNLxK3YL/5FOyEumjkQdKINuNSNaALjbK86EcfHhwMo=",
+        "darwin_arm64": "sha256-DFb2QAu3/63sDhgd5rawfZ1oz2KLHHPryrjWFDw5juQ=",
+        "linux_amd64": "sha256-FDkXVcbcSsnlX7P8tqMjSXD69rZTgvVsktjpHHf50Es=",
+        "linux_arm64": "sha256-2XEg2yKr8JhZ69kXMsVonu3YUs0/InDt9QAsn/ujc88="
       }
     }
   },
