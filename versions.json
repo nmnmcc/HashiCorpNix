@@ -9462,7 +9462,7 @@
     }
   },
   "packer-plugin-azure": {
-    "latest": "2.6.3",
+    "latest": "2.6.4",
     "versions": {
       "0.0.1": {
         "darwin_amd64": "sha256-IDPoqEXMfWwGerrSyfZOIEDtzWf4B/YiVFFx14CMd/w=",
@@ -9775,6 +9775,12 @@
         "darwin_arm64": "sha256-89K1HcpsrZdAtIAXwK55JZ7ZlOzFid/+EntTavokW5A=",
         "linux_amd64": "sha256-+sc4hOpg6t9jscFBBbWImX4i5osMT0amLXJ3Z3w+8Yk=",
         "linux_arm64": "sha256-IVIWkMaNrYFu7wYKPSoolHtBsd4LW4WeREngvGpSOAY="
+      },
+      "2.6.4": {
+        "darwin_amd64": "sha256-Z39AW4i4atczuxnVMKbOTDrontMSpn9+QMG8VXBUezM=",
+        "darwin_arm64": "sha256-lxG51etaGGtWaWtPOKDxc7kc4CBr340a3PjZhC9t0b0=",
+        "linux_amd64": "sha256-AXwFYuvkKvsGc2GKj7VZhpWCsijjtGhN74kqvKJlAhE=",
+        "linux_arm64": "sha256-S9hV/+OOzd7ubCseyHj5NfYCaaGSPzOABCAK/P62uQg="
       }
     }
   },
@@ -71165,7 +71171,7 @@
     }
   },
   "vault-plugin-secrets-kubernetes": {
-    "latest": "0.13.1",
+    "latest": "0.14.0",
     "versions": {
       "0.10.0": {
         "darwin_amd64": "sha256-UXKG0i1xYvo4nGx8QPwZ74Wa+lmC1xEvMIJZJBtJvwc=",
@@ -71196,6 +71202,12 @@
         "darwin_arm64": "sha256-weaPHq7xJPfQRokwlQJS8HBb4xRHTwrL/Rqg+Fsgr+I=",
         "linux_amd64": "sha256-aMI1t1/gfFBpkWnrIJvCU2GWa0Ky7f7WzkutrXz4gXA=",
         "linux_arm64": "sha256-ttGxy+HKfOi21uYj6UOMHAXzA0Wca++AgOiWxDlq91A="
+      },
+      "0.14.0": {
+        "darwin_amd64": "sha256-2qvZFyBTDmm6Lz2slB3coHfytqrOuLoQGvazcb6gR5Q=",
+        "darwin_arm64": "sha256-sVJlnyJdZiJzUpIzbyrLgnI3eAIVydcxTgDpnGf5eDs=",
+        "linux_amd64": "sha256-wmcdpjC1FApjhPqxVHl7Gcy344MXcujRHw4NgMQIG8o=",
+        "linux_arm64": "sha256-s1RM9/EXHS1FLpyz97uG1s2hE762JZ/u4zB4IjYQJds="
       },
       "0.4.0": {
         "darwin_amd64": "sha256-0Fc1aKAkg9DiZC5lF/gMcCcAXGTD9EWYS8U1XgVXTxo=",
