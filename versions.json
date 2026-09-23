@@ -71516,7 +71516,7 @@
     }
   },
   "vault-plugin-secrets-ad": {
-    "latest": "0.22.1",
+    "latest": "0.23.0",
     "versions": {
       "0.17.0": {
         "darwin_amd64": "sha256-wAEvmegvb2L9Xquh+hjgCSNTOyzq5glhpU6I3YMKyUE=",
@@ -71553,6 +71553,12 @@
         "darwin_arm64": "sha256-CuA7qfwV3K6tAK4eZrkNazn3HdqwVvcWHbZy0rdXKjY=",
         "linux_amd64": "sha256-7jrOlRAQxwpnjCLZx3dMaa3pmLeo7xZIPES5vnHooX8=",
         "linux_arm64": "sha256-5m11C8L3g311wUxEkaAf4knQ429aI0y6p55H07FsDQs="
+      },
+      "0.23.0": {
+        "darwin_amd64": "sha256-54h0qjZ4KootiEM8sUKw+ejFsOibaej+Y2h1ZjNU42Q=",
+        "darwin_arm64": "sha256-6a7J3ETTaei+x8YeuVqGLziEi4YzkHdoR+4revcox4I=",
+        "linux_amd64": "sha256-uoLIpfq9dlyGxoJr73ZnRnkYueLJvl1oCWeb+FVCRQA=",
+        "linux_arm64": "sha256-8EIAD9JI5o0JTaPDs+ruEq/gygWY6Rx6/YLp6BRKNQM="
       }
     }
   },
