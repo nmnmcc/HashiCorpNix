@@ -10984,7 +10984,7 @@
     }
   },
   "terraform": {
-    "latest": "1.16.3",
+    "latest": "1.16.4",
     "versions": {
       "0.1.0": {
         "darwin_amd64": "sha256-MJrtDtYVhuJoL1i3d4H46YBXRaXt0a683fiDyfYkoLk=",
@@ -12007,6 +12007,12 @@
         "darwin_arm64": "sha256-wsRUJepFaNqYA+En5YkYbLN5illE2a/1pbwV3RgmdWA=",
         "linux_amd64": "sha256-CTtq6aIiivUCnEFga8lutYNVNSiq0b/n4LTWL8keJdg=",
         "linux_arm64": "sha256-trKTVQr3pqf/2GegSQDOFh24bslAeyNKY2wq264sqfA="
+      },
+      "1.16.4": {
+        "darwin_amd64": "sha256-LuS2IGQIbksksNbPLmFxj7rwVW/rqZD3CKXjJVdVSzs=",
+        "darwin_arm64": "sha256-Qs/fl61yL3kIX+InmwbUuGgBct41NLIu7d2aD7vnuPE=",
+        "linux_amd64": "sha256-3JSvDu8RR3GK18ja6nku0Znj4Eku7BgNCtr6KmWoed8=",
+        "linux_arm64": "sha256-gmPzAcsaJEiaSt7tFHvyhQQFP3cjez6peg7ylyZZ3jA="
       },
       "1.2.0": {
         "darwin_amd64": "sha256-GxAro78MYP9svudPchv4EFeTwRB6HG0D3KuY1wefDHc=",
@@ -70782,7 +70788,7 @@
     }
   },
   "vault-plugin-auth-kubernetes": {
-    "latest": "0.24.1",
+    "latest": "0.25.0",
     "versions": {
       "0.15.1": {
         "darwin_amd64": "sha256-NhTrJS8ouc7Lbl/2zTrE1s6CtmySeqf0a0FOM9dPej0=",
@@ -70885,6 +70891,12 @@
         "darwin_arm64": "sha256-24m1qyX+i/39DGX1OYObzp19wBFqanF/f+VsFScNaUk=",
         "linux_amd64": "sha256-D5S9CuKwSCcbEVE6TWMb2vSN7Per3T4EfQPsBdKvmO4=",
         "linux_arm64": "sha256-O0sixKw6pgwZMdOZdSSLKzaSbj1E/l5zXhOpulQ49fc="
+      },
+      "0.25.0": {
+        "darwin_amd64": "sha256-TKSF3lOQKqBVH3JittFCKjuk/Ddh49ALL/kNgZzuFYU=",
+        "darwin_arm64": "sha256-9ASLbQxpHck9XKggtPPq033jCD6VV+qUzeo5N48T3mk=",
+        "linux_amd64": "sha256-wbF+v4NGDHwRcvZq/k+Odps23ZC3AoIzwVTQeA62Vco=",
+        "linux_arm64": "sha256-6YvUUQiWkPfpiK4ssiNV4SOZx/Ce8oPsIQsbwT6Pp0A="
       }
     }
   },
