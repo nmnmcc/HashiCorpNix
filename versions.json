@@ -48846,7 +48846,7 @@
     }
   },
   "terraform-provider-oci": {
-    "latest": "9.2.0",
+    "latest": "9.3.0",
     "versions": {
       "3.0.0": {
         "darwin_amd64": "sha256-EuP/ho+9i4VxWrCSHWBPQ427R9rKfAa6Acn0V4CUKWA=",
@@ -50943,6 +50943,12 @@
         "darwin_arm64": "sha256-IOBQR08le2e8TliHzfsJTJ06OF1INqcAxF+vRN9HKMU=",
         "linux_amd64": "sha256-RQyTiFvdnbKeaYMt/UjatfHxiWRDuMde/KZ1lsBKMfg=",
         "linux_arm64": "sha256-yxRlZp9b5ISC3tZG7a84qM9iZ7E67aFJ+/tyKRl8gZ4="
+      },
+      "9.3.0": {
+        "darwin_amd64": "sha256-V3bNMfGpx+M/ZG9cvtTCTOQKnkcpJnjG8w8/Obn7ydE=",
+        "darwin_arm64": "sha256-u23vDlhKhdYNDTlbNnk3NVFPQJNE/YU5/HVoA+tSJJo=",
+        "linux_amd64": "sha256-jF1Hxw1cnGJC8xSreMtlaCoGDzjHd5LlwQsTfuY+HqY=",
+        "linux_arm64": "sha256-sNx6/soUGi+ztzwYJwhUPTOqoKAq4wHehAIG44u+Pto="
       }
     }
   },
@@ -72607,7 +72613,7 @@
     }
   },
   "vault-secrets-operator": {
-    "latest": "1.5.1",
+    "latest": "1.6.0",
     "versions": {
       "0.1.0": {
         "linux_amd64": "sha256-L/h8KLUk3uIfEX1szO1P4ORKd3SL2h8Yyrra2/CZjDI=",
@@ -72732,6 +72738,10 @@
       "1.5.1": {
         "linux_amd64": "sha256-zbCu2XQAb2Z4psaATEUaM/rZXgJdA6xkeZy8tPqzHIM=",
         "linux_arm64": "sha256-l0dyC/Bn6Bi19Mh3fNzfM2Z1lng2d0IzT523mJAJt/o="
+      },
+      "1.6.0": {
+        "linux_amd64": "sha256-L6RwzFM1fkQwfaniJaF91wBPNbCjtJOwm4A5TKvjcEE=",
+        "linux_arm64": "sha256-+zasomFe7vsgs2IBlDvYJuSPS44i/MWcdbrmxqwWlic="
       }
     }
   },
