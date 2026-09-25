@@ -70212,7 +70212,7 @@
     }
   },
   "vault-plugin-auth-alicloud": {
-    "latest": "0.23.1",
+    "latest": "0.24.0",
     "versions": {
       "0.17.0": {
         "darwin_amd64": "sha256-bFWlNdg34/G+Zx0izPWFs235ZiDsuaIehs++zZkVNK4=",
@@ -70267,6 +70267,12 @@
         "darwin_arm64": "sha256-NNNqbFd61zkzvvvSnF38Lokw78xxJkCnHQ85M0gPwgc=",
         "linux_amd64": "sha256-V7AEOOzlJT7iMWGXHJEUL0BOpfBIdK8L7/lJU3PxLvI=",
         "linux_arm64": "sha256-aqAYr7nKO+JZKX46R7tXet8XjF7Cuw8Qvomanle5Qcg="
+      },
+      "0.24.0": {
+        "darwin_amd64": "sha256-A/LqC2UQXtTA7H7t46UGdKl/D+o33Z3VYhOYSUheOZI=",
+        "darwin_arm64": "sha256-4P1WNv70Ech7Pby0bjWks0gxLbFWQrQVjhTCFcesPJc=",
+        "linux_amd64": "sha256-FXgXfDJ2R+93IFWNx4yVTvVCJpYfqcBvpGSjev32ulA=",
+        "linux_arm64": "sha256-Ca7UMLA7yACN27vH3NFjINjaEYX3IjjxypypmCy9UtA="
       }
     }
   },
