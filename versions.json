@@ -8266,7 +8266,7 @@
     }
   },
   "nomad-driver-exec2": {
-    "latest": "0.1.2",
+    "latest": "0.2.0",
     "versions": {
       "0.1.0": {
         "linux_amd64": "sha256-E+3QIqx5Pzyoy9QTAVoT19OWFB0RI0+q9yvfNLCMrlA=",
@@ -8279,6 +8279,10 @@
       "0.1.2": {
         "linux_amd64": "sha256-cXQikALZxaRhKxvNAcxasdrIab0N63wrhnr+Ppuyk/g=",
         "linux_arm64": "sha256-vVVG0FYvHm9C4ZZg0eNMLZo34bY065p2BhPY9CjB2cM="
+      },
+      "0.2.0": {
+        "linux_amd64": "sha256-sEHpf/3aPO/m9DNkAQiVfj4U1eMDILCCS+KDBZGwUI0=",
+        "linux_arm64": "sha256-OZFG0YlvZQguZq/y98kZ7z5tWPnGmqOzyZv88pyGl4Y="
       }
     }
   },
@@ -26764,7 +26768,7 @@
     }
   },
   "terraform-provider-datadog": {
-    "latest": "4.22.0",
+    "latest": "4.23.0",
     "versions": {
       "0.1.0": {
         "darwin_amd64": "sha256-nPjadBGQejUOjyRRJoOQFYGVxWh++eBMuu7SXwqNDnc=",
@@ -27716,6 +27720,12 @@
         "darwin_arm64": "sha256-LcCU0xYUwIzL34Citt4S+QPAyYn0XmHXOk0nxBpNZ4M=",
         "linux_amd64": "sha256-8bHAg7ONjdTUzsOzKG1zdwGhskE0MA+lD5BfqRcq8Ww=",
         "linux_arm64": "sha256-gQCfL8nZtFVhJGjLPAIgwkvjcjUvsFX3Ek2XSBqsl5I="
+      },
+      "4.23.0": {
+        "darwin_amd64": "sha256-TraShyiJtSkEJLaIHZ3PVQ68OUFeA1xFT5h+sCkpupc=",
+        "darwin_arm64": "sha256-r+HRqjhWTAhMLH/FBnO35wPoB4s48JHZFB2WYL6HJV0=",
+        "linux_amd64": "sha256-HjxDaomCkv4Z1LHLOe+TSWhdvkZBFeTWoXia3OwJjcg=",
+        "linux_arm64": "sha256-Kt0LN1xOm1PIZDkQW0hfvrk4XtJxwv4UKiWWQgyA//Q="
       },
       "4.3.0": {
         "darwin_amd64": "sha256-rKW40eYDDKy48Y7o2NZwlJiYL/JQj/L2dlIwtPOZdcs=",
