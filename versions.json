@@ -10185,7 +10185,7 @@
     }
   },
   "packer-plugin-kubevirt": {
-    "latest": "0.9.0",
+    "latest": "1.0.0",
     "versions": {
       "0.8.0": {
         "darwin_amd64": "sha256-6PxVSuiJFnFnSlYqjC+6Bdtxv2fHp6KcNTYonlm+1qc=",
@@ -10198,6 +10198,12 @@
         "darwin_arm64": "sha256-TMRyomrg3ip5eJmD93AI9oE/CwNz1VO1gLwQK3AdBXY=",
         "linux_amd64": "sha256-kIZ8C6YMhRzCzNq4foWIyzOU4DMSGkVXHrOSwM/Jg+s=",
         "linux_arm64": "sha256-HB5smJF3V92pOAnYVsyiUHCufB26RZkEUiI8auvkhRU="
+      },
+      "1.0.0": {
+        "darwin_amd64": "sha256-J/7SdE8WYZfgyu+9Gm/fmCTIuwQOYkf/UaQJUlbdP4A=",
+        "darwin_arm64": "sha256-dic3fJ/v9wlYPIsTxnGzEcDyrE9fz8M3KUoCYANlXqk=",
+        "linux_amd64": "sha256-Ao59ol3/TfGFOeXC/tNZcqQT4ELgNMppl6k/b+SRznU=",
+        "linux_arm64": "sha256-jE5lKZGhhKBeKsuA+rTnvnfr1AS+J2Y5R1u4QdrGCak="
       }
     }
   },
@@ -27796,7 +27802,7 @@
     }
   },
   "terraform-provider-digitalocean": {
-    "latest": "2.102.0",
+    "latest": "2.103.0",
     "versions": {
       "0.1.0": {
         "darwin_amd64": "sha256-Dr756PPBWVjWVfGpXgSeI2bB9K2WZUH6DTmJmXpqRIQ=",
@@ -28000,6 +28006,12 @@
         "darwin_arm64": "sha256-/pkAt8+0S8nFzbKlIlj6LNF5qSnWzYTHSdYqddA2vIw=",
         "linux_amd64": "sha256-Bwz+tiFPRWfB7M57Y61zqSWa2uA7m+tJgZGcGheVFdk=",
         "linux_arm64": "sha256-0gPgm7sECchVlhWTprXHhQMCYptfhp7U37OAdiS3dSo="
+      },
+      "2.103.0": {
+        "darwin_amd64": "sha256-s+4tSCmXQIBsFf0NbCepxDVqH8R4RmqMsozSyu6Nq8w=",
+        "darwin_arm64": "sha256-fdORsvoMooiReT2/F1hdmxwvltAkPml/II2Q/oc0Jho=",
+        "linux_amd64": "sha256-zSpHi9QQ48NDHO/h6o9mBmUK+PNfT7aMq2VPqSSTAuY=",
+        "linux_arm64": "sha256-GTTzQJI98Cr/2Uyt3vGCkQnawS0lK/3jEmyCP+lWUgk="
       },
       "2.11.0": {
         "darwin_amd64": "sha256-06BNLHa/wfRqEXsa94cKlzUzGe6Pkko3/neGFRn1lSU=",
