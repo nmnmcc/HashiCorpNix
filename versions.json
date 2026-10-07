@@ -9130,7 +9130,7 @@
     }
   },
   "packer-plugin-amazon": {
-    "latest": "1.8.2",
+    "latest": "1.8.3",
     "versions": {
       "0.0.1": {
         "darwin_amd64": "sha256-a4mWilhiWTKV3c2vROp8/6q2QKnXXiVzsvMV9ULTBFQ=",
@@ -9413,6 +9413,12 @@
         "darwin_arm64": "sha256-8L/e3zfYQNgvKpp1RF0oeO5lYdX6IVik3vHSlw0IjzQ=",
         "linux_amd64": "sha256-Gw969f7Dz9uEPD3PL7mrcLxjTm4nZwiTiQr0K0pz6L0=",
         "linux_arm64": "sha256-KIfKqrt4OuTpimJm40rXr3AJJO6crZ5Jsxb4Wj+jiPY="
+      },
+      "1.8.3": {
+        "darwin_amd64": "sha256-JvZv9iWXWg5NEut5FWw4zjyf1/n3IMONkef8MGuk2vo=",
+        "darwin_arm64": "sha256-/5epaSFzM0bR4WDdEyxb2PgtooHnIQLOGcKFR7SQcOU=",
+        "linux_amd64": "sha256-rYSKh1DRZbM03GwhxJy19NiVGGiPBckM9faqYyUP4Qc=",
+        "linux_arm64": "sha256-5EMPay84IL5DjNR834RFAotYFG86LNtL0rVlszqJxg4="
       }
     }
   },
