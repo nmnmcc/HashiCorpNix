@@ -14229,7 +14229,7 @@
     }
   },
   "terraform-provider-alicloud": {
-    "latest": "1.294.0",
+    "latest": "2.0.0",
     "versions": {
       "0.1.0": {
         "darwin_amd64": "sha256-gPF+kTwaY0XFLOg6/WH0ayfNB7cfYDoGSyTJKpivLtM=",
@@ -16116,6 +16116,12 @@
         "darwin_amd64": "sha256-a2jdh7RVju+QkpQTZA+By/Y1VmON6gWwNdALIRjywwY=",
         "linux_amd64": "sha256-iUzd5KMSKCpeP+y8cbfh+CxKjEFX9+gMISbN0Z3RQFA=",
         "linux_arm64": "sha256-kDCFu1lPg06YBDimBBNT/NwORW+A6kgLtoSCXUWpZ60="
+      },
+      "2.0.0": {
+        "darwin_amd64": "sha256-/DmliLviI0JeG0UFTdJgJ4vaA3DrMGeK7vczcljMHmk=",
+        "darwin_arm64": "sha256-PDG34IGGGIt7Mt1h9EYihhItdAokWYr5ToFDQTvYIps=",
+        "linux_amd64": "sha256-u1VxzK04o7oqiSTGJc1qEymW8na/5MxiplqI2yiZIF4=",
+        "linux_arm64": "sha256-Ffi6uTJk59VL4QLb8EcU2T63sN2va8cLB5yvB86TuPA="
       }
     }
   },
@@ -27904,7 +27910,7 @@
     }
   },
   "terraform-provider-digitalocean": {
-    "latest": "2.105.0",
+    "latest": "2.106.0",
     "versions": {
       "0.1.0": {
         "darwin_amd64": "sha256-Dr756PPBWVjWVfGpXgSeI2bB9K2WZUH6DTmJmXpqRIQ=",
@@ -28126,6 +28132,12 @@
         "darwin_arm64": "sha256-i4GV8Gpdx9mLqS8ZLQC5TDN4MmpN1semR7wVtR3W1Ws=",
         "linux_amd64": "sha256-qH1ZaqvTsPInyXc3X+1iIUDhxnQCnJJZgKvSa+xUhi0=",
         "linux_arm64": "sha256-tDWiMBvPnblruVVhSAP+hURCK00PIlfhCyH763hZiEM="
+      },
+      "2.106.0": {
+        "darwin_amd64": "sha256-qrAHv2v7NSuvo5XZNQf47+UOaSs94lNN7qKvo1iFikk=",
+        "darwin_arm64": "sha256-1dvna8GfBWd58Jr1eYoYFKgQIUuqJb/2AjB5j2ZsZoc=",
+        "linux_amd64": "sha256-VGFODz5udsWa2e0DYSabJwkquKQ4kT1Z2ZiBRWJgR6A=",
+        "linux_arm64": "sha256-mIKSJIh7O79zrKG4w7M3qiwCDnKKGSC3WbjoT/Gk13s="
       },
       "2.11.0": {
         "darwin_amd64": "sha256-06BNLHa/wfRqEXsa94cKlzUzGe6Pkko3/neGFRn1lSU=",
@@ -73015,7 +73027,7 @@
     }
   },
   "vault-secrets-operator": {
-    "latest": "1.6.0",
+    "latest": "1.6.1",
     "versions": {
       "0.1.0": {
         "linux_amd64": "sha256-L/h8KLUk3uIfEX1szO1P4ORKd3SL2h8Yyrra2/CZjDI=",
@@ -73144,6 +73156,10 @@
       "1.6.0": {
         "linux_amd64": "sha256-L6RwzFM1fkQwfaniJaF91wBPNbCjtJOwm4A5TKvjcEE=",
         "linux_arm64": "sha256-+zasomFe7vsgs2IBlDvYJuSPS44i/MWcdbrmxqwWlic="
+      },
+      "1.6.1": {
+        "linux_amd64": "sha256-75OiCnXvXxxmm66BVCxwDdojC/X6UosWrDrzYTIr71o=",
+        "linux_arm64": "sha256-xNuY7aswLxjG8ySisfxNUoKnCS5rAwWPZM6e08uEKxs="
       }
     }
   },
