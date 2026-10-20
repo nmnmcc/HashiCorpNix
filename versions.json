@@ -44664,7 +44664,7 @@
     }
   },
   "terraform-provider-linode": {
-    "latest": "4.7.0",
+    "latest": "4.8.0",
     "versions": {
       "1.0.0": {
         "darwin_amd64": "sha256-Pr4O8k55V2vnIDrPwT/9Yq3YytyN7ohBRo+PmByqWUk=",
@@ -45555,6 +45555,12 @@
         "darwin_arm64": "sha256-S+Dbxxp1ncVtnMxl4Q9tsABSDiJjVuNu0tdKsO7vwgw=",
         "linux_amd64": "sha256-CEB5/4Sf8mnjGCwz8Y6yXu03yTxqOpXvt2G4z3NpWF0=",
         "linux_arm64": "sha256-XrGGxuOOw16InavFh4c1VeoLi0/dlooo+nabm/EyTtY="
+      },
+      "4.8.0": {
+        "darwin_amd64": "sha256-ZbjkE235YbPYcQKwsFCLH6kKDmUaPkUb0II2pDpht54=",
+        "darwin_arm64": "sha256-vs3UJyhJmAC+Gu/jO+SAT/IIN01dJz+n3RukKng4HTQ=",
+        "linux_amd64": "sha256-m8hzPzv1XqaDuS7LO2WLjsiEGFqdOASDcO4KqzaV/Hs=",
+        "linux_arm64": "sha256-mSvSyOJkUtwN9Nyay15AeFBWSoA9Bnkl5wP7V+hqglg="
       }
     }
   },
