@@ -71728,7 +71728,7 @@
     }
   },
   "vault-plugin-auth-kubernetes": {
-    "latest": "0.25.0",
+    "latest": "0.25.1",
     "versions": {
       "0.15.1": {
         "darwin_amd64": "sha256-NhTrJS8ouc7Lbl/2zTrE1s6CtmySeqf0a0FOM9dPej0=",
@@ -71837,6 +71837,12 @@
         "darwin_arm64": "sha256-9ASLbQxpHck9XKggtPPq033jCD6VV+qUzeo5N48T3mk=",
         "linux_amd64": "sha256-wbF+v4NGDHwRcvZq/k+Odps23ZC3AoIzwVTQeA62Vco=",
         "linux_arm64": "sha256-6YvUUQiWkPfpiK4ssiNV4SOZx/Ce8oPsIQsbwT6Pp0A="
+      },
+      "0.25.1": {
+        "darwin_amd64": "sha256-P6tmrPxMpkmlVLQrgBdwpQVO1diy5+HkphUECPYodgM=",
+        "darwin_arm64": "sha256-upxzzBD5ATWu1v4H17mx+Umz28fti1Vrm7+6phI2Ayw=",
+        "linux_amd64": "sha256-oAGJq4k9gLuzvsw3Z2L+OmB1XrMXY0oGmuZE3mTvXvw=",
+        "linux_arm64": "sha256-J5ddT7VvCz+ncTthGcG03NPcOlfsok6vnXGXNwUI5Vw="
       }
     }
   },
@@ -72284,13 +72290,19 @@
     }
   },
   "vault-plugin-database-redis-elasticache": {
-    "latest": "0.10.0",
+    "latest": "0.10.1",
     "versions": {
       "0.10.0": {
         "darwin_amd64": "sha256-iMv5XLVT+P+b+863+VOpUjNAkWZ7R5NJYa5ha4Hyon8=",
         "darwin_arm64": "sha256-Z7z02X3q1fDerCjc8oacmOxMqqEJQQMegmF7qhDZYq8=",
         "linux_amd64": "sha256-3lEzxjEFRG6A4pE6EjPwRK5eK2f1+pyjw7KPXCFSzJI=",
         "linux_arm64": "sha256-yz9qIKP9v2VL2JJPEkQRg7GHLGApL8bqT2IAmj9I6H4="
+      },
+      "0.10.1": {
+        "darwin_amd64": "sha256-HERp8IZy+h6DhedDxTK8hFbB2IF6YkFGPSw/CJEoFN0=",
+        "darwin_arm64": "sha256-J1GUAKW4DYiTvRxpFRI55h4jybfoijLc7lYOBlsBj30=",
+        "linux_amd64": "sha256-OrE8/duStwdoMPC8vAZXIXVu/le6cXYK9h5BZO5Dc8k=",
+        "linux_arm64": "sha256-Lmx/BEtVrke02eZjfHAOwPtNib0VMr2Kf+cyGxo3jnw="
       },
       "0.2.1": {
         "darwin_amd64": "sha256-UqLe+vwrAPCGXdUsrJvd4fMp4hhwxdyLd50uvTSeJ68=",
@@ -72776,7 +72788,7 @@
     }
   },
   "vault-plugin-secrets-gcpkms": {
-    "latest": "0.25.0",
+    "latest": "0.25.1",
     "versions": {
       "0.17.0": {
         "darwin_amd64": "sha256-tRXVqOAL52mnOrD4oYaGcCbLa0YUdPUSuIFxAdzjRhA=",
@@ -72825,6 +72837,12 @@
         "darwin_arm64": "sha256-DFb2QAu3/63sDhgd5rawfZ1oz2KLHHPryrjWFDw5juQ=",
         "linux_amd64": "sha256-FDkXVcbcSsnlX7P8tqMjSXD69rZTgvVsktjpHHf50Es=",
         "linux_arm64": "sha256-2XEg2yKr8JhZ69kXMsVonu3YUs0/InDt9QAsn/ujc88="
+      },
+      "0.25.1": {
+        "darwin_amd64": "sha256-emjalQUZJDbL5E3LQRmFOamz2v42K2i7qHP1ehdnj8o=",
+        "darwin_arm64": "sha256-Zcqy3Jn2bEOH2zh9UZ+kDWDVlR/QkHvukngPctXaR/E=",
+        "linux_amd64": "sha256-w3klOWxqdoXCwUXHfWkoXhupZulpsQWhFiG1jvgGwao=",
+        "linux_arm64": "sha256-q5oyGf3ur6fHsb60o6z+PTmVgqWGF58dE/mgQH02UtE="
       }
     }
   },
