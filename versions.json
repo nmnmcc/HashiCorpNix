@@ -13156,7 +13156,7 @@
     }
   },
   "terraform-mcp-server": {
-    "latest": "1.4.0",
+    "latest": "1.4.1",
     "versions": {
       "0.1.0": {
         "darwin_amd64": "sha256-zoPN9jzGQNy0GI9sQm4PYzi1NvAqicMX7YrfgXOIgzM=",
@@ -13265,6 +13265,12 @@
         "darwin_arm64": "sha256-Xp0+rNQyV7aiEv82Ykj6+kF8tt0ABBkOYDKN3sUge1w=",
         "linux_amd64": "sha256-sGklsmiEL8FxUtMMSFc1iLmPVnfbwSvr8/sDZvJWQGE=",
         "linux_arm64": "sha256-2epbFp/Gd1vpEmAjj9nWRsTjsalf2Gp3nA8Mqrupas8="
+      },
+      "1.4.1": {
+        "darwin_amd64": "sha256-X7zcjpirT4Ck+yw27wOjgOGm4mHAXGMzk4M+sKxlUbs=",
+        "darwin_arm64": "sha256-EObUnoQ3tAmdLUQ12HuVxolqmOxLoUC9qkjQqq3Bfxs=",
+        "linux_amd64": "sha256-iyUmRRFi4W2AOrAU9wcPD0EpYs3//9z0RucKhGNiSBs=",
+        "linux_arm64": "sha256-Ar2AnnIlvpysfYG+YQ4QgvY94LE0CW8RGe8tLhUk5mI="
       }
     }
   },
@@ -71188,7 +71194,7 @@
     }
   },
   "vault-plugin-auth-alicloud": {
-    "latest": "0.24.0",
+    "latest": "0.24.1",
     "versions": {
       "0.17.0": {
         "darwin_amd64": "sha256-bFWlNdg34/G+Zx0izPWFs235ZiDsuaIehs++zZkVNK4=",
@@ -71249,6 +71255,12 @@
         "darwin_arm64": "sha256-4P1WNv70Ech7Pby0bjWks0gxLbFWQrQVjhTCFcesPJc=",
         "linux_amd64": "sha256-FXgXfDJ2R+93IFWNx4yVTvVCJpYfqcBvpGSjev32ulA=",
         "linux_arm64": "sha256-Ca7UMLA7yACN27vH3NFjINjaEYX3IjjxypypmCy9UtA="
+      },
+      "0.24.1": {
+        "darwin_amd64": "sha256-erkfQdgr8cD8zCYJgfolnMiBv4Okz9IrGxrP6Jj5w8U=",
+        "darwin_arm64": "sha256-yOOy2IilI8cnctDKK9hpNpI4EnaL1yp/IfIXfoYZ7+s=",
+        "linux_amd64": "sha256-ZYlbX+P7/nAMV3qCOabmpMreJcETfgGFy4iBkrKOsuA=",
+        "linux_arm64": "sha256-wutxI2UpyZeD73uOs1yXKFM/TqcSOwdml4jC6vTp0+s="
       }
     }
   },
