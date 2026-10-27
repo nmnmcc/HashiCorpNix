@@ -33716,7 +33716,7 @@
     }
   },
   "terraform-provider-google": {
-    "latest": "8.8.1",
+    "latest": "8.9.0",
     "versions": {
       "0.1.0": {
         "darwin_amd64": "sha256-+Z5GJEkZWpcmmoX7jLJ+4PsMJzhsUqeLmkFY2XLSubM=",
@@ -36101,11 +36101,17 @@
         "darwin_arm64": "sha256-W2Q6kklZNKIsWUrKCV6s4nyBfYPviWBC5DYLhyFihd8=",
         "linux_amd64": "sha256-lSKy7XzTNUiMepFQm7cM8TSjGLaXw4JV7RhCCdEfBDY=",
         "linux_arm64": "sha256-p1CfjR25kVa78bcuGswlzPCTqP1K8mRGThsFTpCofrg="
+      },
+      "8.9.0": {
+        "darwin_amd64": "sha256-/ur/4e24rB88D0MfEdIe8xxreXdi2EKOPBimesZBz0k=",
+        "darwin_arm64": "sha256-hlCGPYFIBi9uIt9iwzGSfhNK6fg69VbSZbF7y9exq1E=",
+        "linux_amd64": "sha256-8K/L0zquoB9qYufO161bMchtWnAW2hll2x/LLXuSZVY=",
+        "linux_arm64": "sha256-4q3waiktUNxY9S0roFnyNh8WQtrTBU6oOasuR2PM640="
       }
     }
   },
   "terraform-provider-google-beta": {
-    "latest": "8.8.1",
+    "latest": "8.9.0",
     "versions": {
       "1.19.0": {
         "darwin_amd64": "sha256-Fj27i4E2sVRqVL4F6UygIH9J00seVO4AVZqKEyaFGYM=",
@@ -38379,6 +38385,12 @@
         "darwin_arm64": "sha256-ZhRQiuojAXKeWzuF/xLNEjx5aPDus9QuuDitdNX8FQc=",
         "linux_amd64": "sha256-PWJA5AzHE6SNXHkVy9o8D/fJMFKfHTKeVW6hiWA5iOw=",
         "linux_arm64": "sha256-3MrYE1BCGTAHKaGY8YdBlY+V4vP0dtvytBTlmXiwLDk="
+      },
+      "8.9.0": {
+        "darwin_amd64": "sha256-bLRlpoDTg0zG0daBUzx8zkwPqO3J8F6xaZQ3jFEdgI8=",
+        "darwin_arm64": "sha256-2wV6oLFNl5P8E40zhZShKjvqtkObB5EEpNMNoe9IZxY=",
+        "linux_amd64": "sha256-5jNsdrnwvqJUu9Pe9zG2fy3rMaEijWGviUmzrrAvuLE=",
+        "linux_arm64": "sha256-5XgK4nYPKBsTY2agExAm5epUDTTql0BJ1jlFSxgokAg="
       }
     }
   },
@@ -70983,7 +70995,7 @@
     }
   },
   "vault-k8s": {
-    "latest": "1.7.6",
+    "latest": "1.7.7",
     "versions": {
       "0.10.0": {
         "linux_amd64": "sha256-MZGr0OMhRiwOhy900Hy7cymlE8z/w+kGAUijt3ytOko=",
@@ -71143,6 +71155,10 @@
       "1.7.6": {
         "linux_amd64": "sha256-qFkzqUaZ5gw3vys2ql2fk0jxUwV9FAHI78bj3vxUngY=",
         "linux_arm64": "sha256-UbJ9VlmmJeeZZD1dmwkwMin0NVjYtx911LVB9obcHHU="
+      },
+      "1.7.7": {
+        "linux_amd64": "sha256-v+kGvmYqEUrvQ45LbTOC9IUxLPiudsCsuifXF+vQSrc=",
+        "linux_arm64": "sha256-6YYEExEHBkBd1KrYPKKgKRMSezSKsfzHnnuwgPIFSHU="
       }
     }
   },
