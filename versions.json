@@ -9609,7 +9609,7 @@
     }
   },
   "packer-plugin-azure": {
-    "latest": "2.6.4",
+    "latest": "2.6.5",
     "versions": {
       "0.0.1": {
         "darwin_amd64": "sha256-IDPoqEXMfWwGerrSyfZOIEDtzWf4B/YiVFFx14CMd/w=",
@@ -9928,6 +9928,12 @@
         "darwin_arm64": "sha256-lxG51etaGGtWaWtPOKDxc7kc4CBr340a3PjZhC9t0b0=",
         "linux_amd64": "sha256-AXwFYuvkKvsGc2GKj7VZhpWCsijjtGhN74kqvKJlAhE=",
         "linux_arm64": "sha256-S9hV/+OOzd7ubCseyHj5NfYCaaGSPzOABCAK/P62uQg="
+      },
+      "2.6.5": {
+        "darwin_amd64": "sha256-cEcQo4F93auxfzOZMqpz8tXrn7fbLit1Wzr9XzJMHaU=",
+        "darwin_arm64": "sha256-6AFg+3g/GEQv4S6Rr55q0vbMn0GodKfU0XEUwJGKZ8E=",
+        "linux_amd64": "sha256-mkuLRjblEeYCk4vDHf5KVA9gu9oFKY6JeF2W6SXprR4=",
+        "linux_arm64": "sha256-uHnM/VwIE/4UNNAnz++bwdANghLmAKO0alKgZwrRpRI="
       }
     }
   },
