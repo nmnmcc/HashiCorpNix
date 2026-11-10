@@ -8530,7 +8530,7 @@
     }
   },
   "opa-wrapper": {
-    "latest": "1.7.1",
+    "latest": "1.8.0",
     "versions": {
       "1.4.0": {
         "linux_amd64": "sha256-xzBzxFwlLibG9edH9EhzhdimouULxTnnkSHLZhswBT0=",
@@ -8551,6 +8551,10 @@
       "1.7.1": {
         "linux_amd64": "sha256-9YdhiDEyO4dQ8M4LcV6zh9UIOLyZ8QrYpNXwjz49Pw4=",
         "linux_arm64": "sha256-+8QMTarzFtKDufC7I3hHixtdZtdUs1V4wuvg2lTz96s="
+      },
+      "1.8.0": {
+        "linux_amd64": "sha256-xT+AL1WFWK7vhDGK66aXAqJUvi+iSWeOaPDxon17In0=",
+        "linux_arm64": "sha256-lOI0T9m3KhMNvKAX7dqEJZJdd+e3yW06xAWQzs+oJ10="
       }
     }
   },
@@ -13368,7 +13372,7 @@
     }
   },
   "terraform-provider-aci": {
-    "latest": "2.20.0",
+    "latest": "2.21.0",
     "versions": {
       "0.1.0": {
         "darwin_amd64": "sha256-1Vhc7gPUKojHRngFllKHq9/QhWf++EY8rdGUWOdFjbk=",
@@ -13628,6 +13632,12 @@
         "darwin_arm64": "sha256-qOFCz0BUS9WUAcIods/rvNc9qC1ehZY4xx4KKCPmKSY=",
         "linux_amd64": "sha256-A/ckOwHMuAfnPGiTwIx9FNm+IghebP0/XPjOm4MhN5E=",
         "linux_arm64": "sha256-UuD/r4shOUDjOy1H6q+3hPqtM7S9xiyvdrELBfhfR4I="
+      },
+      "2.21.0": {
+        "darwin_amd64": "sha256-YfzXI65ImsoTZvt900wv/FMjx0rRCXoTouoSpd7ZstQ=",
+        "darwin_arm64": "sha256-zGgybO5TgcBVDMGGV7+FkjeoXiPCft5RQOVCG9wiCPY=",
+        "linux_amd64": "sha256-rg3FzYlTWMDoTs2Nt4piHsnMLK/Gmi1lOFbWAenDpuU=",
+        "linux_arm64": "sha256-8ZUtGKm0Po9Z4KIhn7UaaVoNewUrU84faJ6RDg7dBl8="
       },
       "2.3.0": {
         "darwin_amd64": "sha256-GJS76Yv5/5ar4JQwVdJNyDLzn8eeXmg7zEFQ0xTbxHY=",
@@ -27249,7 +27259,7 @@
     }
   },
   "terraform-provider-datadog": {
-    "latest": "4.29.0",
+    "latest": "4.30.0",
     "versions": {
       "0.1.0": {
         "darwin_amd64": "sha256-nPjadBGQejUOjyRRJoOQFYGVxWh++eBMuu7SXwqNDnc=",
@@ -28249,6 +28259,12 @@
         "darwin_arm64": "sha256-wsVW2yCox94o+2ruPrSL/asUrm4F4gMMGM4iKRaskzE=",
         "linux_amd64": "sha256-s2bXE9OHkqptLP0qPWJtl2wz4t5jVPVtdyHDgbmEJj8=",
         "linux_arm64": "sha256-QErj6rlNYrLlEfBR07Qp/LF2NCyiCvrPleIP/+5JAW0="
+      },
+      "4.30.0": {
+        "darwin_amd64": "sha256-JW4JZPjaymzz25VkD+McHsjWND0sQGIh3Sj10/cq/+o=",
+        "darwin_arm64": "sha256-J9vSbEpBPi3ZNdsBOqRrsZ2R9kFwHfqx05Tr7UerY4Q=",
+        "linux_amd64": "sha256-PJjIMEYHdKLd7eWkijMrzBH6+NUjwfxwmC/xsvEMGXY=",
+        "linux_arm64": "sha256-vUAAn1IRQhzN4ud/bCKaNnG1T9P7wa8CKNHDXQG9vRc="
       },
       "4.4.0": {
         "darwin_amd64": "sha256-1GQeAl7IUSDNgWBTf/FeG8pvcbrChrytYPREWxhPDWw=",
@@ -46195,7 +46211,7 @@
     }
   },
   "terraform-provider-logicmonitor": {
-    "latest": "2.1.6",
+    "latest": "2.1.7",
     "versions": {
       "1.0.0": {
         "darwin_amd64": "sha256-Inpp9t3BapXa+3yhbClZWupcNuYxtYJocB/1QNskBK4=",
@@ -46492,6 +46508,12 @@
         "darwin_arm64": "sha256-5WcehSukWJ0fqwVpxvEaNKYGryl9ytXLPG/JFGyqq40=",
         "linux_amd64": "sha256-uo4+6W0G8cEF7AaE3SGyS/TiqVdDqnOszB1dBUCGZIc=",
         "linux_arm64": "sha256-cUHEtCO0dp4nDpl6i7ebeW5hB870XfDZJScGdxtaUMk="
+      },
+      "2.1.7": {
+        "darwin_amd64": "sha256-Zh9SpASAD++wDGLWrb6HSjvVs0Ry7glvR0vD7T4WlnY=",
+        "darwin_arm64": "sha256-AD15KMx1jWT2cUh7kt2YhZtb7YDptx73AUunEJA34I4=",
+        "linux_amd64": "sha256-Jn9lqOn06q1o38pe1cPrbwbZ9IjjwbjhRbKs5TRngH4=",
+        "linux_arm64": "sha256-mRwHWWr4qMr20DEMt4dgcWayJhuJhBR/7kbH7zMM0zQ="
       }
     }
   },
@@ -71455,7 +71477,7 @@
     }
   },
   "vault-lambda-extension": {
-    "latest": "0.15.0",
+    "latest": "0.15.1",
     "versions": {
       "0.10.0": {
         "linux_amd64": "sha256-mFsMhgtGVoXY5TBLG7/8/EdWXQmiAPvPfGaZKjdA4AI=",
@@ -71500,6 +71522,10 @@
       "0.15.0": {
         "linux_amd64": "sha256-bZ1PvNa5NmhGFcZXjuyYccJIisyPSeTORQo5/VW0dk4=",
         "linux_arm64": "sha256-pyrmIPUcqEFTEGsADcsXng9jkFpkG6NuSYRNAgvO4hs="
+      },
+      "0.15.1": {
+        "linux_amd64": "sha256-bUqARQriD4r7RfoMFoHECR6tk7I2oL/XymjfXWWCPdo=",
+        "linux_arm64": "sha256-tuw8NIygXnQvpjpJrfqe1Uz9tZZmsbYCMFUzHevPwzc="
       },
       "0.4.0": {
         "linux_amd64": "sha256-n6fB6xxx7NMNtF/Rsw8m86GyfUyGn1T0B4fikITWQcs="
