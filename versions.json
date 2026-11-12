@@ -74257,7 +74257,7 @@
     }
   },
   "vault-secrets-operator": {
-    "latest": "1.6.2",
+    "latest": "2.0.0",
     "versions": {
       "0.1.0": {
         "linux_amd64": "sha256-L/h8KLUk3uIfEX1szO1P4ORKd3SL2h8Yyrra2/CZjDI=",
@@ -74394,6 +74394,10 @@
       "1.6.2": {
         "linux_amd64": "sha256-hdA93BvCGBXMLXcG8e/KJjt9jsyG1q6+NI7oeDqZct8=",
         "linux_arm64": "sha256-CW5PvpUzhjmL1gnd1RB/QNdjJMCyAWid0RggHdBr988="
+      },
+      "2.0.0": {
+        "linux_amd64": "sha256-Q7x0v1229jvrF3rimztzqKQJqlmw6tN63yxxNgC5i8s=",
+        "linux_arm64": "sha256-LB5MfV1EeHM+Bl8mepQq+yRrD2fKbeeBqWhfT/sLNLI="
       }
     }
   },
