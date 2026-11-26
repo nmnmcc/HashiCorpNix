@@ -10378,7 +10378,7 @@
     }
   },
   "packer-plugin-kubevirt": {
-    "latest": "1.0.1",
+    "latest": "1.1.0",
     "versions": {
       "0.8.0": {
         "darwin_amd64": "sha256-6PxVSuiJFnFnSlYqjC+6Bdtxv2fHp6KcNTYonlm+1qc=",
@@ -10403,6 +10403,12 @@
         "darwin_arm64": "sha256-RFL8OyljC23Hu80jPRQsBgkLIS34geAieB70aXFzK5A=",
         "linux_amd64": "sha256-dw2NZ2AM4viEzY6erutkKDPnebKoGkTUpggfZ1ThFsM=",
         "linux_arm64": "sha256-AdhZaMyAPWRQFZe+u0+uLJ5/JivY7nSngddK9DPiJ5U="
+      },
+      "1.1.0": {
+        "darwin_amd64": "sha256-yY318ygM+5tozvQiYLg9HeYyjUeK9Qmi9dqjMuqK6HE=",
+        "darwin_arm64": "sha256-tcMe9nHvgLDCgl7gUvRJD8aZ3a/N/UbdxJrKr2AF0GI=",
+        "linux_amd64": "sha256-YRcR8VROh9qXi/BDpYFAO226EUHJvYbEjgM7SVz5Sag=",
+        "linux_arm64": "sha256-EyByx3sFLZWa+lmX35N1x5FOkmtEnxcdBOJLzXDYc4o="
       }
     }
   },
@@ -71531,7 +71537,7 @@
     }
   },
   "vault-csi-provider": {
-    "latest": "1.7.4",
+    "latest": "1.8.0",
     "versions": {
       "0.4.0": {
         "linux_amd64": "sha256-kTtRKVUGc8fuzg1jgHtZCsvliqVndYbWc73jqcAgp60=",
@@ -71604,6 +71610,10 @@
       "1.7.4": {
         "linux_amd64": "sha256-XsfSJMwIAI/aRfZSoI0BGCLjL8l7xRi4DccV8iHwy1I=",
         "linux_arm64": "sha256-zUUZZCKZFHTNLmGyun6EcrW24rF6sb7L4jiO3d2nEBg="
+      },
+      "1.8.0": {
+        "linux_amd64": "sha256-SfQl3vKiA49+4d+rkjkUPkBz5iA0gg3R2FHo9s3tD4g=",
+        "linux_arm64": "sha256-/BFtOFRIFz98Sd2kIO3vQgeFzKhx75CdSt43rXdeL+k="
       }
     }
   },
